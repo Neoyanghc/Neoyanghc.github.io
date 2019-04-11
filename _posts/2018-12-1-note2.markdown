@@ -21,15 +21,20 @@ tags:
 要对输入的m组data进行一个处理
 将其放到一个矩阵中方便计算，或者对于不同范围的数据
 进行特征缩放，规格化到[-1,1]或者比较接近这个范围
+
+
+
 ![这里写图片描述](https://img-blog.csdn.net/20180525131054763?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3l5eV94aWFveGlhbw==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
 
 
-    X_norm = X;
-    mu = zeros(1, size(X, 2));
-    sigma = zeros(1, size(X, 2));
-    mu=mean(X);
-    sigma=std(X);
-    X_norm = (X - repmat(mu,size(X,1),1)) ./ repmat(sigma,size(X,1),1);
+```matlab
+X_norm = X;
+mu = zeros(1, size(X, 2));
+sigma = zeros(1, size(X, 2));
+mu=mean(X);
+sigma=std(X);
+X_norm = (X - repmat(mu,size(X,1),1)) ./ repmat(sigma,size(X,1),1);
+```
 
 ### 1. 梯度下降
 ![](https://img-blog.csdn.net/20180525131104802?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3l5eV94aWFveGlhbw==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
