@@ -1,0 +1,17 @@
+---
+layout:     post
+title:      "1"
+subtitle:   " \"经过思路的整理，对用什么方法进行实验做了调研\""
+date:       2019-04-12 13:00:00
+author:     "jack"
+header-img: "img/post-bg-sea2.jpg"
+catalog: true
+tags:
+    - 随笔
+   
+---
+
+
+
+### dwadwas
+
