@@ -7,6 +7,7 @@ description: "关于程序与设计、旅行者与梦想家 | 杨涵晨,Programm
 keyword: "杨涵晨, jack杨涵晨, jack, jackyanghc, @jackyanghc, 杨涵晨的博客, jack Blog, 博客, 个人网站, 互联网, 机器学习, tensorflow, 深度学习, 设计"
 url: "https://jackyanghc.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
+
 github_repo: "https://github.com/jackyanghc/jackyanghc.github.io.git" # you code repository
 
 # Publish posts or collection documents with a future date.
