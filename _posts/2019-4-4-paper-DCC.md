@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "论文笔记6:Deep Domain Confusion"
-subtitle:   " \"CV 综述文章分析和介绍现有方法\""
+subtitle:   " \"迁移学习网络和方法学习\""
 date:       2019-04-9 15:00:00
 author:     "jack"
 header-img: "img/post-bg-sea.jpg"
@@ -45,11 +45,26 @@ loss函数，不仅需要对分类完成的好，而且要能缩小两者差距�
 
 ![](https://ws1.sinaimg.cn/large/007bgNxTly1g1wn5a65s3j30c5013t8k.jpg)
 
-网络结构设计时做了两个选择
+网络结构设计时做了两个选择题。
 
 - adaptation layer 在哪里设置
 - 输出的维度，MMD的维度
 
 ![](https://ws1.sinaimg.cn/large/007bgNxTly1g1wncyfduxj30r80a3wfy.jpg)
 
-未完待续
+### 4. 如何训练网络
+
+综上所述，两个选择对比出来之后，应该来对网络进行训练
+
+利用上面给出的loss function ，通过 lamba 来控制进行 fine-tuning，
+
+并且是对两边的网络结构都进行fine-tuning.
+
+还包括对MMD 加上一些正则化手段，来辅助训练。
+
+### 5. 利用 t-she 查看数据的相关性
+
+figure 中展示了fc7 对数据相关性的比较。可以看到此网络显著减少了不同数据之间的相关性
+
+![](https://ws1.sinaimg.cn/large/007bgNxTly1g24uym6wjgj30zq0zmnmr.jpg)
+
