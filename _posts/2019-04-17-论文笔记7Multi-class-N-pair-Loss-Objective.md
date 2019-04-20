@@ -10,7 +10,6 @@ tags:
     - 度量学习
     - 论文笔记
     - 深度学习
-
 ---
 
 ## 论文笔记7 Multi-class N-pair Loss Objective
