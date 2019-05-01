@@ -26,7 +26,7 @@ tags:
 
 1. 打开一个vi进程。通过ps命令以及选择合适的参数，只显示名字为vi的进程。寻找vi进程的父进程，直到init进程为止。记录过程中所有进程的ID和父进程ID。将得到的进程树和由pstree命令的得到的进程树进行比较。
 2. 编写程序，首先使用fork系统调用，创建子进程。在父进程中继续执行空循环操作；在子进程中调用exec打开vi编辑器。然后在另外一个终端中，通过ps –Al命令、ps aux或者top等命令，查看vi进程及其父进程的运行状态，理解每个参数所表达的意义。选择合适的命令参数，对所有进程按照cpu占用率排序。
-3. 使用fork系统调用，创建如下进程树，并使每个进程输出自己的ID和父进程的ID。观察进程的执行顺序和运行状态的变化。![](https://ws1.sinaimg.cn/large/007bgNxTly1g14paijwfrj30x30buwfa.jpg)
+3. 使用fork系统调用，创建如下进程树，并使每个进程输出自己的ID和父进程的ID。观察进程的执行顺序和运行状态的变化。![](http://jackyanghc-picture.oss-cn-beijing.aliyuncs.com/007bgNxTly1g14paijwfrj30x30buwfa.jpg%29)
 4. 修改上述进程树中的进程，使得所有进程都循环输出自己的ID和父进程的ID。然后终止p2进程(分别采用kill -9 、自己正常退出exit()、段错误退出)，观察p1、p3、p4、p5进程的运行状态和其他相关参数有何改变。
 
 #### 三.实验解答
@@ -43,7 +43,7 @@ tags:
     # grep program_filter_word 这里是vi 也可以是java c等来区分
    ```
 
-   ![](https://ws1.sinaimg.cn/large/007bgNxTly1g14pbqayf5j30zs02n75g.jpg)
+   ![](http://jackyanghc-picture.oss-cn-beijing.aliyuncs.com/007bgNxTly1g14pbqayf5j30zs02n75g.jpg%29)
 
 2. 寻找vi的父进程
 
@@ -58,7 +58,7 @@ tags:
 
    依次进程回溯查询我们可以得到如下所示进行树的一条链.
 
-   ![](https://ws1.sinaimg.cn/large/007bgNxTly1g14pj5pn33j30zw04cgnh.jpg)
+   ![](http://jackyanghc-picture.oss-cn-beijing.aliyuncs.com/007bgNxTly1g14pj5pn33j30zw04cgnh.jpg%29)
 
    **1 -> 901 ->1033 ->1076->2349->2354->3122**
 
@@ -69,7 +69,7 @@ tags:
    # pstree -pid 以pid为根的子树 
    ```
 
-   ![](https://ws1.sinaimg.cn/large/007bgNxTly1g14pe8poddj310y0a1t9f.jpg)
+   ![](http://jackyanghc-picture.oss-cn-beijing.aliyuncs.com/007bgNxTly1g14pe8poddj310y0a1t9f.jpg%29)
 
 ##### 实验总结
 
@@ -140,17 +140,17 @@ tags:
 
    父进程5663利用fork函数，创建一个子进程5664，5664进程调用vi指令
 
-   ![](https://ws1.sinaimg.cn/large/007bgNxTly1g14pffl21rj30za04rgod.jpg)
+   ![](http://jackyanghc-picture.oss-cn-beijing.aliyuncs.com/007bgNxTly1g14pffl21rj30za04rgod.jpg%29)
 
 4. 执行结果
 
-   ![](https://ws1.sinaimg.cn/large/007bgNxTly1g14pfu2awxj316t04f0tr.jpg)
+   ![](http://jackyanghc-picture.oss-cn-beijing.aliyuncs.com/007bgNxTly1g14pfu2awxj316t04f0tr.jpg%29)
 
 ##### 实验总结
 
 - fork() 函数是为父进程创建一个只有pid等部分结构不同的子进程，直接复制PCB等
 
-  ![](https://ws1.sinaimg.cn/large/007bgNxTly1g14pgeuoluj313a067t9y.jpg)
+  ![](http://jackyanghc-picture.oss-cn-beijing.aliyuncs.com/007bgNxTly1g14pgeuoluj313a067t9y.jpg%29)
 
   父进程执行Part A --- Part.B   子进程只执行Part.B
 
@@ -206,7 +206,7 @@ tags:
 
 2. 实验结果
 
-   ![](https://ws1.sinaimg.cn/large/007bgNxTly1g14pgw5qggj31a70pc79a.jpg)
+   ![](http://jackyanghc-picture.oss-cn-beijing.aliyuncs.com/007bgNxTly1g14pgw5qggj31a70pc79a.jpg%29)
 
 #### TASK 4
 
@@ -261,7 +261,7 @@ tags:
 
   利用 ps - al 进行查看
 
-  ![](https://ws1.sinaimg.cn/large/007bgNxTly1g14pi95f7vj31710ke4bd.jpg)
+  ![](http://jackyanghc-picture.oss-cn-beijing.aliyuncs.com/007bgNxTly1g14pi95f7vj31710ke4bd.jpg%29)
 
   可以看到只有p2死亡，而它的子进程p4，p5还存在，但是父节点变化了
 
@@ -284,7 +284,7 @@ tags:
 
 - exit（）函数退出
 
-  ![](https://ws1.sinaimg.cn/large/007bgNxTly1g14phnv0q1j316l0g7tjk.jpg)
+  ![](http://jackyanghc-picture.oss-cn-beijing.aliyuncs.com/007bgNxTly1g14phnv0q1j316l0g7tjk.jpg%29)
 
   可以看到，p2的退出没有影响到它的子进程，p4，p5的父进程的也被改变。
 
@@ -309,7 +309,7 @@ tags:
 
 - 段错误退出时
 
-  ![](https://ws1.sinaimg.cn/large/007bgNxTly1g14phb7tqvj31700grgxl.jpg)
+  ![](http://jackyanghc-picture.oss-cn-beijing.aliyuncs.com/007bgNxTly1g14phb7tqvj31700grgxl.jpg%29)
 
   可以看到，p2的退出没有影响到它的子进程，p4，p5的父进程的也被改变。
 

@@ -39,7 +39,7 @@ tags:
 
 受人脸识别的三元组启发，我的个人想法是将单图片级别上升到多图片的对比，大方向就是根据不同图片之间的差距来比较网络输入的**原始图片**和网络输出的**feature map**。
 
-![](https://ws1.sinaimg.cn/large/007bgNxTly1g1onvyxxnkj31b60j44bi.jpg)
+![](http://jackyanghc-picture.oss-cn-beijing.aliyuncs.com/007bgNxTly1g1onvyxxnkj31b60j44bi.jpg%29)
 
 #### 2.2 定义输出差距判断函数
 
@@ -47,7 +47,7 @@ tags:
 
 但是输出的特征空间，因为它经过多次卷积，输出的东西也比较难被我们理解。但是值得一提的是：**临近法**现有的研究已经在fc层已经可以得知下列图片中第二行第一个图片（左边的大象）和第二个图片（右边的大象）（可以说他们在每个像素上面都不同）是极其相似的。（具体是怎么判断差距有待了解）我们的输出也可以是多维的，可以用PCA，t-she等降维来减少计算量。但是这里就有一个难点就是**怎么定义我们的输出差距判断函数**
 
-![](https://ws1.sinaimg.cn/large/007bgNxTly1g1qltnlhlcj30md0dfgym.jpg)
+![](http://jackyanghc-picture.oss-cn-beijing.aliyuncs.com/007bgNxTly1g1qltnlhlcj30md0dfgym.jpg%29)
 
 
 
@@ -75,15 +75,15 @@ tags:
 
 当这个网络的所有样本都能用这个函数衡量的时候，我们算一个输出的相同度的准确率就可以看这个网络是否是比较好的网络。
 
-![](https://ws1.sinaimg.cn/large/007bgNxTly1g1qo9slwpij30ki0alaji.jpg)
+![](http://jackyanghc-picture.oss-cn-beijing.aliyuncs.com/007bgNxTly1g1qo9slwpij30ki0alaji.jpg%29)
 
-![](https://ws1.sinaimg.cn/large/007bgNxTly1g1qph5ey8kj30wn0jbadw.jpg)
+![](http://jackyanghc-picture.oss-cn-beijing.aliyuncs.com/007bgNxTly1g1qph5ey8kj30wn0jbadw.jpg%29)
 
 #### 3.2 事中解释性
 
 在网络训练的最后一层上，对比他们的feature map之间的差距，相同类的feature map 应该尽可能的相似，不同类的应该最大化不相似。通过跟 interpret CNN 一样加 loss来惩罚训练。如果整个feature 不好用的话，可以利用cam 将 具体位置定位出来，只针对那一部分内容来让惩罚，让其相似。
 
-![](https://ws1.sinaimg.cn/large/007bgNxTly1g1qol8jz2ij310906amy4.jpg)、![](https://ws1.sinaimg.cn/large/007bgNxTly1g1qpiqvfswj311m0kmdki.jpg)
+![](http://jackyanghc-picture.oss-cn-beijing.aliyuncs.com/007bgNxTly1g1qpiqvfswj311m0kmdki.jpg%29)
 
 + 缺点可能会比较难收敛。
 
