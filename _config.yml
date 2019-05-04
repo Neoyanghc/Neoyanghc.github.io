@@ -82,7 +82,7 @@ gitalk:
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "For the next quantum leap<br>离开世界之前，你就是一切"
+sidebar-about-description: "📨：16281052@bjtu.edu.cn<br>📞：18801116521"
 sidebar-avatar: /img/avatar-hux-ny.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
