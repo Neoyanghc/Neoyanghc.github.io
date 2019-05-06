@@ -1,4 +1,4 @@
----
+<!-- ---
 layout:     post
 title:      "论文笔记7:Multi-class N-pair Loss Objective"
 subtitle:   " \"度量方法学习，triple loss 升级版\""
@@ -16,5 +16,5 @@ tags:
 
 论文Improved Deep Metric Learning with Multi-class N-pair Loss Objective的研读笔记
 
-### 1. 简介
+### 1. 简介 -->
 
