@@ -12,7 +12,7 @@ tags:
     - 机器学习
 ---
 
-## 【论文笔记】CNN经典入门Visualizing and Understanding Convolution Networks
+## 【论文笔记 1】CNN经典入门Visualizing and Understanding Convolution Networks
 
 ### 1. 综述
 

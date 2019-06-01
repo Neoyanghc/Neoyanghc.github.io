@@ -83,7 +83,9 @@ tags:
 
 在网络训练的最后一层上，对比他们的feature map之间的差距，相同类的feature map 应该尽可能的相似，不同类的应该最大化不相似。通过跟 interpret CNN 一样加 loss来惩罚训练。如果整个feature 不好用的话，可以利用cam 将 具体位置定位出来，只针对那一部分内容来让惩罚，让其相似。
 
-![](http://jackyanghc-picture.oss-cn-beijing.aliyuncs.com/007bgNxTly1g1qpiqvfswj311m0kmdki.jpg%29)
+![](http://jackyanghc-picture.oss-cn-beijing.aliyuncs.com/007bgNxTly1g1qpiqvfswj311m0kmdki.jpg)
+
+
 
 + 缺点可能会比较难收敛。
 
