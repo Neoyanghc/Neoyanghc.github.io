@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "操作系统_lab5_文件系统 "
-subtitle:   "“\linux 文件管理系统\""
+subtitle:   " \"liunx 文件系统的实现\""
 date:       2019-06-2 23:00:00
 author:     "jack"
 header-img: "img/post-bg-infinity.jpg"
