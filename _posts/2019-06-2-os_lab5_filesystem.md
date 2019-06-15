@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "操作系统_lab5_文件系统 "
-subtitle:   " \linux 文件管理系统\""
+subtitle:   "“\linux 文件管理系统\""
 date:       2019-06-2 23:00:00
 author:     "jack"
 header-img: "img/post-bg-infinity.jpg"
@@ -17,7 +17,11 @@ tags:
 
 ### 实验要求
 
-  本实验要求在模拟的I/O系统之上开发一个简单的文件系统。用户通过create, open, read等命令与文件系统交互。文件系统把磁盘视为顺序编号的逻辑块序列，逻辑块的编号为0至*L* *−* 1。I/O系统利用内存中的数组模拟磁盘。
+  本实验要求在模拟的I/O系统之上开发一个简单的文件系统。
+
+  用户通过create, open, read等命令与文件系统交互。
+
+  文件系统把磁盘视为顺序编号的逻辑块序列，逻辑块的编号为0至*L* *−* 1。I/O系统利用内存中的数组模拟磁盘。
 
 ### TASK 1  实验概要设计
 
@@ -32,7 +36,9 @@ tags:
 
 Inode table 主要存储文件的地址存放信息，可以对应到数据区中进行存储和读取。
 
-数据区也就是我们的磁盘，用于存储文件数据。
+这里必须明确，文件记录区和inode table也是磁盘的一部分
+
+数据区也就是我们的磁盘最主要的部分，用于存储文件数据。
 
 ![](https://jackyanghc-picture.oss-cn-beijing.aliyuncs.com/20190604224607.png)
 
@@ -249,6 +255,12 @@ int rename(char *old, char *new1)
 
 ![](https://jackyanghc-picture.oss-cn-beijing.aliyuncs.com/20190607205118.png)
 
+#### 4.4 文件的目录
+
+编写directory函数通过位图进行文件的查找，将目录下的文件打印出来。
+
+![](https://jackyanghc-picture.oss-cn-beijing.aliyuncs.com/20190614210458.png)
+
 ### TASK 5 文件打开和关闭
 
 #### 5.1 文件的打开
@@ -322,4 +334,129 @@ int close(int index)// 关闭制定文件。
 ![](https://jackyanghc-picture.oss-cn-beijing.aliyuncs.com/20190607210837.png)
 
 ### TASK6 文件的写入和读出
+
+#### 6.1 文件指针的维护
+
+每次再打开一个文件时，会通过文件表象进行文件指针的维护，文件指针指向默认对应文件数据的存储开始
+
+![](https://jackyanghc-picture.oss-cn-beijing.aliyuncs.com/20190614201020.png)
+
+利用index和lseek函数进行查找，可以将其指向位置进行改变。
+
+```c
+int lseek(int index, int pos)
+{
+	for (int j = 0; j < C_MAX; j++)
+	{
+		if (item[j].index == index)
+		{
+			item[j].pos = pos;
+			return 0;
+		}
+	}
+	cout << "找不到文件,请重试" << endl;
+	return 0;
+}
+```
+
+#### 6.2 文件的写入
+
+通过外部先维持一个较大的buff，进行数据的缓存，将要读入数据进行存放，等待I/O结束后将buff中数据写入
+
+需要考虑如下几点：
+
+1. 考虑buffer是否空
+2. 考虑读多少次进行回写
+3. 考虑磁盘不够进行申请的情况
+
+主要流程图如下所示：
+
+![](https://jackyanghc-picture.oss-cn-beijing.aliyuncs.com/未命名文件 (3).png)
+
+```c
+int write(int index, string mem_area, int count)
+// 把memarea指定的内存位置开始的count个字节顺序写入指定文件。写操作从文件的读写指针指示的位置开始。
+{
+	for (int j = 0; j < C_MAX; j++)
+	{
+		if (item[j].index == index)
+		{
+			myblock* p = item[j].data;
+			for (int i = 0; i < count; i++)
+			{
+				if (i+1 % 512 == 0)
+				{
+					p->next = new myblock;
+					p = p->next;
+				}
+                if(i % 10 == 0 )
+                {
+                    p->data[item[j].pos] = mem_area[i];
+				    item[j].pos++;
+                }
+			}
+			return 0;
+		}
+	}
+	cout << "找不到文件,请重试" << endl;
+	return 0;
+}
+```
+
+当磁盘块满时，进行空间申请，并且通过拉链的方式将数据连接起来
+
+![](https://jackyanghc-picture.oss-cn-beijing.aliyuncs.com/20190614205913.png)
+
+#### 6.3 文件的读出
+
+跟文件的写入将对应将搜索文件指针指向的磁盘，进行搜索count个字符
+
+如果磁盘被读取完毕，则将其指向指针指向的盘块
+
+![](https://jackyanghc-picture.oss-cn-beijing.aliyuncs.com/未命名文件 (4).png)
+
+```c
+int read(int index, string mem_area, int count)
+// 从指定文件顺序读入count个字节memarea指定的内存位置。读操作从文件的读写指针指示的位置开始。
+{
+	for (int j = 0; j < C_MAX; j++)
+	{
+		if (item[j].index == index)
+		{
+            myblock* p = item[j].data;
+			for (int i = 0; i < count; i++)
+			{
+                if (i+1 % 512 == 0)
+				{
+					p->next = new myblock;
+					p = p->next;
+				}
+                if(i % 10 == 0 )
+                {
+                    mem_area[i] = p->data[i + item[j].pos];
+                }
+			   cout << mem_area;
+			}
+			cout << "读出成功" << endl;
+			return 0;
+		}
+	}
+	cout << "找不到文件,请重试" << endl;
+	return 0;
+}
+```
+
+#### 6.4 文件读取结果
+
+![](https://jackyanghc-picture.oss-cn-beijing.aliyuncs.com/20190614212536.png)
+
+### 实验总结
+
+通过本次文件系统的实验，我更加清楚的认识到**文件是如何在磁盘中存储的**，
+
+通过对位图，文件描述区的定义以及数据结构的编写，熟悉了真实操作系统中的数据存储逻辑
+
+临近考试周，虽然本次实验花费了我很多时间，但是也很有收获，尤其是对文件的读写，对磁盘的操作等等等等
+
+最后，感谢助教和老师的一学期的帮助和指导。
 
