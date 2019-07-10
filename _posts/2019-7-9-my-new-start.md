@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "奇遇人生————my new start"
+title:      "奇遇人生_my new start"
 subtitle:   " \"人生从未如此奇遇过\""
 date:       2019-7-9 13:00:00
 author:     "jack"
