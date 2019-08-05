@@ -10,10 +10,12 @@ Nice to meet you here. 😀😥❤
 
 #### Education
 - 2016, B.E. in Computer Science and Technology, Beijing Jiaotong University.
+
 #### Research Interests
 - Machine Learning
 - Interpretability of Deep Learning
 - Data Mining
+
 #### Contact 
 - 18801116521
 - 16281052@bjtu.edu.cn
