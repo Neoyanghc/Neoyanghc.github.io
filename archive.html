@@ -115,7 +115,14 @@ https://github.com/kitian616/jekyll-TeXt-theme
 							{% endcomment %}
 							<span class="date day">{{ this_day }}</span>
 							<span class="date month small text-muted">{{ this_month }}</span>
-							<a href="{{ post.url }}">{{ post.title }}</a>
+							<div class="post-preview item" data-tags="{{ _tags }}">
+								<a href="{{ post.url }}">
+									<h2 class="post-title">
+										{{ post.title }}
+									</h2>
+								</a>
+								<hr>
+							</div>
 						</div>
 					</li>
 					{% if forloop.last %}
