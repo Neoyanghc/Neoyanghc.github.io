@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "jacktf_tensorflow个人深度学习框架（0）"
+title:      "jacktf_tensorflow个人深度学习框架"
 subtitle:   " \"设计编写自己能够完全使用的tf框架\""
 date:       2019-8-13 17:00:00
 author:     "jack"
