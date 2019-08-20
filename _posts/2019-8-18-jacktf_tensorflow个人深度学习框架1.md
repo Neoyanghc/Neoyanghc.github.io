@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "jacktf_tensorflow个人深度学习框架1"
+title:      "jacktf个人深度学习框架1"
 subtitle:   " \"开始编写对应的data_process and data_provide 函数接口\""
 date:       2019-8-17 17:00:00
 author:     "jack"
