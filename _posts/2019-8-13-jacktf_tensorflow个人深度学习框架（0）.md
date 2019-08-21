@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "jacktf个人深度学习框架0"
+title:      "jacktf个人深度学习框架_框架设计"
 subtitle:   " \"设计编写自己能够完全使用的tf框架\""
 date:       2019-8-13 17:00:00
 author:     "jack"
@@ -56,6 +56,7 @@ tags:
 
 ### 3. 整体设计结构
 
-![](https://jackyanghc-picture.oss-cn-beijing.aliyuncs.com/20190815173310.png)
+![](https://jackyanghc-picture.oss-cn-beijing.aliyuncs.com/未命名文件 (3).png)
 
-开始实现吧！
+**开始实现吧！**
+
