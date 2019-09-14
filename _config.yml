@@ -127,3 +127,5 @@ friends: [
         href: "https://apple.com"
     }
 ]
+
+theme: jekyll-theme-cayman
