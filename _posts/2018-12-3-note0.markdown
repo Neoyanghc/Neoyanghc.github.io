@@ -12,10 +12,6 @@ tags:
     - 机器学习
 ---
 
-
-
-
-
 ## <center>吴恩达deepAI深度学习第一周课程学习记录
 
 #### 一.loss function & cost function 
