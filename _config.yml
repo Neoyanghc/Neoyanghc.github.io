@@ -117,15 +117,18 @@ friends: [
         title: "刘大佬",
         href: "https://michel-liu.github.io/"
     },{
-        title: "家琪学长",
-        href: "https://jackeywang777.github.io/"
-    },{
         title: "BJTU",
         href: "https://www.bjtu.edu.cn"
     },{
+        title: "DMB Lab",
+        href: "http://dmb.tongji.edu.cn/"
+    },{
+        title: "TJU",
+        href: "https://www.tongji.edu.cn/"
+    },{
         title: "Apple",
         href: "https://apple.com"
-    }
+    },
 ]
 
 theme: jekyll-theme-cayman
