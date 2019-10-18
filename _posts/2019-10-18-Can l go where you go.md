@@ -17,25 +17,23 @@ tags:
 >
 > 2019.10.09，我的博客，有女主人啦！虽然当时还没有告白，但所爱搁山海，山海亦可平。
 >
-> 感谢上天，让这一切发生，l'd sing hallelujah to thank the new one and the old gods
+> 感谢上天，让这一切发生！
 
 ### Chapter 1  意外惊喜
 
-本来第一次见面完，大家都觉得对方看不上自己，可能要撤了。
+本来第一次见面完，大家都觉得对方看不上自己，可能要撤了。可是机缘巧合，加上晚上下雨，天气转凉，我又送她回学校，一而再二而三，就又约了一场电影《中国机长》，这个由来就更有意思了，她当时随口一说，让我觉得好像她是再邀请我，当然爽快答应，然后去看电影
 
-可是机缘巧合，加上天工夜雨，天气转凉，我又送她回学校，一而再二而三，就又约了一场电影《中国机长》
-
-这个由来就更有意思了，宝宝随口一说，让我觉得是她再邀请我，当然爽快答应，然后去看电影
-
-+ 同时穿绿色情侣衫，宝宝的衣服还是第一次上身!
++ 同穿绿色情侣衫，她的衣服还是第一次上身!
 
 后面，她下班我去接她，就又再一次穿了一样的牛仔衫。
 
-+ 同时穿牛仔情侣衫，我还是出门前忘记，特意回来拿上穿！
++ 同穿牛仔情侣衫，我还是出门前忘记，特意回来拿上穿！
+
+**l'd sing hallelujah to thank the new one and the old gods**
 
 ### Chapter 2  New age
 
-杨涵晨和李知颐，在一起了！！ **welcome to our new age**
+杨涵晨和李知颐，我们在一起了！！🎈♥♥ ♥ 🎁 **welcome to our new age**
 
 我这必须夸一夸我女票了，好看，优秀，端庄，大方，温柔，还体贴人。
 
@@ -45,7 +43,6 @@ tags:
 
 我开心，她快乐，高兴！！！！
 
-```
 Life is so fantastic with you
 l'd sing Hallelujah thanks god let this begin
 
@@ -54,8 +51,7 @@ when we walk in the road counting steps its true that you are the one i meant to
 Please trust my baby what i said to you its all the heartwarm trues 
 
 So baby，Welcome to our new age
-My life is so you 
-```
+**My life is so you** 
 
 ![](https://jackyanghc-picture.oss-cn-beijing.aliyuncs.com/3789dc0ab9579edaacd65675c49c991.jpg)
 
