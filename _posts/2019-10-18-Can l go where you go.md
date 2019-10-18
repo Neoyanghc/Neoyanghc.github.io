@@ -35,6 +35,16 @@ tags:
 
 ### Chapter 2  New age
 
+杨涵晨和李知颐，在一起了！！ **welcome to our new age**
+
+我这必须夸一夸我女票了，好看，优秀，端庄，大方，温柔，还体贴人。
+
+人生能得几回醉，我们也太幸运了，能在诺大的北京城遇到自己爱的人，**相看两不厌，只有敬亭山**
+
+我好像有点飘，这篇博客一直再说自己很幸福，这不是我都技术交流博客吗？？？哈哈哈，管不了那么多了
+
+我开心，她快乐，高兴！！！！
+
 ```
 Life is so fantastic with you
 l'd sing Hallelujah thanks god let this begin
