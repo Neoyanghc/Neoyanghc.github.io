@@ -35,19 +35,17 @@ tags:
 
 ### Chapter 2  New age
 
-`Life is so fantastic with you`
+```
+Life is so fantastic with you
+l'd sing Hallelujah thanks god let this begin
 
-`l'd sing Hallelujah thanks god let this begin`
+when the lights shine on your face baby its true that you are my maigc on the earth
+when we walk in the road counting steps its true that you are the one i meant to love
+Please trust my baby what i said to you its all the heartwarm trues 
 
-`when the lights shine on your face baby its true that you are my maigc on the earth`
-
-`when we walk in the road counting steps its true that you are the one i meant to love`
-
- ``Please trust my baby what i said to you its all the heartwarm trues `
-
-`So baby，Welcome to our new age`
-
-`My life is so you `
+So baby，Welcome to our new age
+My life is so you 
+```
 
 ![](https://jackyanghc-picture.oss-cn-beijing.aliyuncs.com/3789dc0ab9579edaacd65675c49c991.jpg)
 
@@ -69,16 +67,12 @@ tags:
 
 that's the perfect imperfections.
 
-**In life, you accumulate scars,**
-
-**you accumulate hurt,** 
-
-**you accumulate moments of learning in disappointment and struggle and all that.** 
-
-**And if someone’s gonna take your hand, they better take your hand and scars and all.** 
-
 ![](https://jackyanghc-picture.oss-cn-beijing.aliyuncs.com/20191018151214.png)
+
+`In life, you accumulate scars, you accumulate hurt,you accumulate moments of learning in disappointment and struggle and all that.And if someone’s gonna take your hand, they better take your hand and scars and all. `
 
 ### Chapter 5 Waiting us to filling in the blanks
 
 待续，一直一直续下去。
+
+爱你，**李知颐**。
