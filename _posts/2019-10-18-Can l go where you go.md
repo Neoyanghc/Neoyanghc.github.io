@@ -31,6 +31,8 @@ tags:
 
 **l'd sing hallelujah to thank the new one and the old gods**
 
+![](https://jackyanghc-picture.oss-cn-beijing.aliyuncs.com/1a82770fd289ce9d4763830e5b76ced.jpg)
+
 ### Chapter 2  New age
 
 杨涵晨和李知颐，我们在一起了！！🎈♥♥ ♥ 🎁 **welcome to our new age**
@@ -43,6 +45,7 @@ tags:
 
 我开心，她快乐，高兴！！！！
 
+```
 Life is so fantastic with you
 l'd sing Hallelujah thanks god let this begin
 
@@ -51,7 +54,8 @@ when we walk in the road counting steps its true that you are the one i meant to
 Please trust my baby what i said to you its all the heartwarm trues 
 
 So baby，Welcome to our new age
-**My life is so you** 
+My life is so you
+```
 
 ![](https://jackyanghc-picture.oss-cn-beijing.aliyuncs.com/3789dc0ab9579edaacd65675c49c991.jpg)
 
@@ -82,3 +86,5 @@ that's the perfect imperfections.
 待续，一直一直续下去。
 
 爱你，**李知颐**。
+
+![](https://jackyanghc-picture.oss-cn-beijing.aliyuncs.com/d1b621e52fffede25c304307762e583.jpg)
