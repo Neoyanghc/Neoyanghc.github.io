@@ -54,16 +54,6 @@ tags:
 
 ![](https://jackyanghc-picture.oss-cn-beijing.aliyuncs.com/2018afbe617cb97a800afaa56f678ba.jpg)
 
-##### 3.双晨记
-
-哈哈哈，很幸运有这样的朋友，两个单身狗相互陪伴。虽然是朋友，但也不用避讳什么。
-
-现在是7.9号 10.43 写着blog，她才收拾好。我们出发啦！
-
-一点也不想去景点，但是最后还是在晚上的外滩穿个拖鞋散了步，是真的放松。
-
-![](https://jackyanghc-picture.oss-cn-beijing.aliyuncs.com/5b61c092feaf5f4cf6e0159a91b3c02.jpg)
-
 #### 后记
 
 希望有机会我们再见啦！，明天到家啦，一切尘埃落定的感觉好好啊，很开心的！
