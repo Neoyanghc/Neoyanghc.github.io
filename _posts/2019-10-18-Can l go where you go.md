@@ -8,7 +8,7 @@ header-img: "img/post-bg-russian.jpg"
 catalog: true
 tags:
     - 爱情
-    - 生活
+    - 北京
 ---
 
 > 2018.09.03，我开通了自己的博客，当时的我还是一个孤独的守望者。期待有流星划过我的黑夜
