@@ -1,4 +1,4 @@
----
+<!-- ---
 layout:     post
 title:      "2020-welcome to new age"
 subtitle:   " \"元旦我们一起出去玩啦，第一个节日，2020也是我们一起共度的未来\""
@@ -31,4 +31,4 @@ tags:
 
 ### 3. 2020，初雪S
 
-老婆临行前一天，我们还在一起学习，晚上就下雪了。开开心心的看见初雪。然后我送她去车站![](https://tva1.sinaimg.cn/large/006tNbRwly1gbcndcp8a6j30zu0u0qv6.jpg)
+老婆临行前一天，我们还在一起学习，晚上就下雪了。开开心心的看见初雪。然后我送她去车站![](https://tva1.sinaimg.cn/large/006tNbRwly1gbcndcp8a6j30zu0u0qv6.jpg) -->

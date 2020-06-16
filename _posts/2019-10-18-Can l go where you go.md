@@ -1,4 +1,4 @@
----
+<!-- ---
 layout:     post
 title:      "李小姐，陪我过冬吧！"
 subtitle:   "\"夏天还没遇到你，秋天走的太快，愿意陪我过冬吗？我亲爱的宝贝\""
@@ -87,4 +87,4 @@ that's the perfect imperfections.
 
 爱你，**李知颐**。
 
-![](https://jackyanghc-picture.oss-cn-beijing.aliyuncs.com/d1b621e52fffede25c304307762e583.jpg)
+![](https://jackyanghc-picture.oss-cn-beijing.aliyuncs.com/d1b621e52fffede25c304307762e583.jpg) -->
