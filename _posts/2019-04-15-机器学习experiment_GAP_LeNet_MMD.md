@@ -3,7 +3,7 @@ layout:     post
 title:      "机器学习experiment_GAP_LeNet_MMD"
 subtitle:   " \"将MMD应用在LeNet上查看GAP下不同类的差距\""
 date:       2019-04-15 13:00:00
-author:     "jack"
+author:     "neo"
 header-img: "img/post-bg-road1.jpg"
 catalog: true
 tags:
@@ -23,7 +23,7 @@ tags:
 
 ### 2. 实验环境
 
-![](http://jackyanghc-picture.oss-cn-beijing.aliyuncs.com/007bgNxTly1g24q5lwy4hj31ps03mdh6.jpg%29)
+![](http://neoyanghc-picture.oss-cn-beijing.aliyuncs.com/007bgNxTly1g24q5lwy4hj31ps03mdh6.jpg%29)
 
 数据集：**MNIST cluttered dataset**
 
@@ -34,11 +34,11 @@ jupyter notebook mnist.py # The heatmaps are available in out/
 
 原始数据：
 
-![](http://jackyanghc-picture.oss-cn-beijing.aliyuncs.com/007bgNxTly1g24mpyphhnj30zk07ot92.jpg%29)
+![](http://neoyanghc-picture.oss-cn-beijing.aliyuncs.com/007bgNxTly1g24mpyphhnj30zk07ot92.jpg%29)
 
 网络结构：
 
-![](http://jackyanghc-picture.oss-cn-beijing.aliyuncs.com/007bgNxTly1g24msfulnfj317w0ah0vq.jpg%29)
+![](http://neoyanghc-picture.oss-cn-beijing.aliyuncs.com/007bgNxTly1g24msfulnfj317w0ah0vq.jpg%29)
 
 ### 3. 实验步骤
 
@@ -135,13 +135,13 @@ def mmd_rbf(source, target, kernel_mul=2.0, kernel_num=5, fix_sigma=None):
 
 ##### 4. 1 CAM 结果
 
-![](http://jackyanghc-picture.oss-cn-beijing.aliyuncs.com/007bgNxTly1g24jkz7efzj318r07b0uj.jpg%29)
+![](http://neoyanghc-picture.oss-cn-beijing.aliyuncs.com/007bgNxTly1g24jkz7efzj318r07b0uj.jpg%29)
 
 ##### 4.2 MMD on GAP
 
 **10x64  同类 <=1**
-![](http://jackyanghc-picture.oss-cn-beijing.aliyuncs.com/007bgNxTly1g24maydi0tj312b0fv76z.jpg%29)
+![](http://neoyanghc-picture.oss-cn-beijing.aliyuncs.com/007bgNxTly1g24maydi0tj312b0fv76z.jpg%29)
 
 **1 vs 1 之间比较**，出现问题
 
-![](http://jackyanghc-picture.oss-cn-beijing.aliyuncs.com/007bgNxTly1g24qf4y9xvj30on0gq75u.jpg%29)
+![](http://neoyanghc-picture.oss-cn-beijing.aliyuncs.com/007bgNxTly1g24qf4y9xvj30on0gq75u.jpg%29)

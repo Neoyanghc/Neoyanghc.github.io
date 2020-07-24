@@ -3,7 +3,7 @@ layout:     post
 title:      "尘埃落定_保研度假Vocation记录"
 subtitle:   " \"5点机试结束，7点买机票，10点到机场，出发\""
 date:       2019-10-4 13:00:00
-author:     "jack"
+author:     "neo"
 header-img: "img/post-bg-un.jpg"
 catalog: true
 tags:
@@ -28,13 +28,13 @@ tags:
 
 **我飘了**
 
-![](https://jackyanghc-picture.oss-cn-beijing.aliyuncs.com/99330a8389e9aa6a8595cdbfea260d5.jpg)
+![](https://neoyanghc-picture.oss-cn-beijing.aliyuncs.com/99330a8389e9aa6a8595cdbfea260d5.jpg)
 
 ### Part 2 大连真冷
 
 到大连之后，就一直随心玩，喂海鸥，吃生蚝，这两件事真的是最好的！！！！
 
-![](https://jackyanghc-picture.oss-cn-beijing.aliyuncs.com/ebb0fad57abc34367b276b59ee403f8.jpg)
+![](https://neoyanghc-picture.oss-cn-beijing.aliyuncs.com/ebb0fad57abc34367b276b59ee403f8.jpg)
 
 第一天晚上在星海广场上，看到了久违的落日余晖，觉得好像已经把大连玩的差不多了
 
@@ -46,11 +46,11 @@ tags:
 
 重庆是晚上到的，坐在飞机上都不能看到地面的烟火，真的很多云，落地的时候旁边的阿姨一直跟我们说，这边很湿冷，一定多穿点，我们俩可能是唯二穿短裤的仔了！！！
 
-![](https://jackyanghc-picture.oss-cn-beijing.aliyuncs.com/d51c4732e12a2788207d879267bc7ea.jpg)
+![](https://neoyanghc-picture.oss-cn-beijing.aliyuncs.com/d51c4732e12a2788207d879267bc7ea.jpg)
 
 不知道咋说，重庆看起来挺高级的，但是说实话很压抑，也比较破旧，我们住的酒店我们在地面转了好几圈愣是没找到！！！当时我都生气死了，不过叫了个鸡真的好吃，那晚上真的是巅峰！好吃暴了！
 
-![](https://jackyanghc-picture.oss-cn-beijing.aliyuncs.com/e447090ee2a53e7238d7d04a628c439.jpg)
+![](https://neoyanghc-picture.oss-cn-beijing.aliyuncs.com/e447090ee2a53e7238d7d04a628c439.jpg)
 
 重庆也是夜景特别好！
 
@@ -58,7 +58,7 @@ tags:
 
 真是无福消受！酒店装修我还挺喜欢的，还看了一会周杰伦演唱会，完美
 
-![](https://jackyanghc-picture.oss-cn-beijing.aliyuncs.com/8e4fb377c84661142856a0149efcd1c.jpg)
+![](https://neoyanghc-picture.oss-cn-beijing.aliyuncs.com/8e4fb377c84661142856a0149efcd1c.jpg)
 
 重庆火锅也算不错，真的很香！
 
@@ -70,7 +70,7 @@ tags:
 
 去看熊猫，这只全场最佳！！！！！！！
 
-![](https://jackyanghc-picture.oss-cn-beijing.aliyuncs.com/708cac8b93289ffd2b1a3a3638057f9.jpg)
+![](https://neoyanghc-picture.oss-cn-beijing.aliyuncs.com/708cac8b93289ffd2b1a3a3638057f9.jpg)
 
 晚上去吃钵钵鸡，上来一整盆，我以为要完全吃完，然后就一直吃，觉得肯定吃不完了！
 
@@ -82,7 +82,7 @@ tags:
 
 去喝茶，掏耳朵，走宽窄巷
 
-![](https://jackyanghc-picture.oss-cn-beijing.aliyuncs.com/ada92953ecb9643043e0668bb0621c7.jpg)
+![](https://neoyanghc-picture.oss-cn-beijing.aliyuncs.com/ada92953ecb9643043e0668bb0621c7.jpg)
 
 感觉特别有感觉，所以就有感而发
 
@@ -109,7 +109,7 @@ tags:
 
 回家躺尸，学学厨艺，以后肯定有用
 
-![](https://jackyanghc-picture.oss-cn-beijing.aliyuncs.com/3a1399deba55ac0416d5c19b253cd16.jpg)
+![](https://neoyanghc-picture.oss-cn-beijing.aliyuncs.com/3a1399deba55ac0416d5c19b253cd16.jpg)
 
 ### Part 6 外婆心愿
 
@@ -121,10 +121,10 @@ tags:
 
 每天暴走4w+，而且我外婆160，我太难了！！！
 
-![](https://jackyanghc-picture.oss-cn-beijing.aliyuncs.com/dc14c90639574b4cd506a7e2abea810.jpg)
+![](https://neoyanghc-picture.oss-cn-beijing.aliyuncs.com/dc14c90639574b4cd506a7e2abea810.jpg)
 
 不过奶奶开心，我也就不累了，年轻嘛！
 
-![](https://jackyanghc-picture.oss-cn-beijing.aliyuncs.com/b7cda6f4d6eb0091a55fbda5afa454e.jpg)
+![](https://neoyanghc-picture.oss-cn-beijing.aliyuncs.com/b7cda6f4d6eb0091a55fbda5afa454e.jpg)
 
 我们还特地去了一趟雍和宫，希望她一直开心快乐！

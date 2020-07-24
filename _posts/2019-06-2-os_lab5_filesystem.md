@@ -3,7 +3,7 @@ layout:     post
 title:      "操作系统_lab5_文件系统 "
 subtitle:   " \"liunx 文件系统的实现\""
 date:       2019-06-2 23:00:00
-author:     "jack"
+author:     "neo"
 header-img: "img/post-bg-infinity.jpg"
 catalog: true
 tags:
@@ -15,7 +15,7 @@ tags:
 
 > “16281052 杨涵晨 计科1601 ”
 
-github 地址 https://github.com/jackyanghc/2019_BJTU_OS_16281052/tree/master/lab5
+github 地址 https://github.com/neoyanghc/2019_BJTU_OS_16281052/tree/master/lab5
 
 ### 实验要求
 
@@ -42,7 +42,7 @@ Inode table 主要存储文件的地址存放信息，可以对应到数据区�
 
 数据区也就是我们的磁盘最主要的部分，用于存储文件数据。
 
-![](https://jackyanghc-picture.oss-cn-beijing.aliyuncs.com/20190604224607.png)
+![](https://neoyanghc-picture.oss-cn-beijing.aliyuncs.com/20190604224607.png)
 
 #### 1.2 实现内容
 
@@ -95,7 +95,7 @@ typedef struct OpenFile
 
 这部分主要对用户使用时的交互进行编写，根据用户输入的指令进行执行对于的命令，比较简单，采用if - else 进行判断，结果展示如下：
 
-![](https://jackyanghc-picture.oss-cn-beijing.aliyuncs.com/20190607201155.png)
+![](https://neoyanghc-picture.oss-cn-beijing.aliyuncs.com/20190607201155.png)
 
 ### TASK 4 文件创建和删除
 
@@ -105,7 +105,7 @@ typedef struct OpenFile
 
 在设计时，我将位图信息存储在前2块磁盘上，利用“0“，”1“来区分。
 
-![](https://jackyanghc-picture.oss-cn-beijing.aliyuncs.com/20190607204159.png)
+![](https://neoyanghc-picture.oss-cn-beijing.aliyuncs.com/20190607204159.png)
 
 #### 4.2 文件的创建
 
@@ -118,7 +118,7 @@ typedef struct OpenFile
 
 对应的流程图，如下所示：
 
-![](https://jackyanghc-picture.oss-cn-beijing.aliyuncs.com/未命名文件.png)
+![](https://neoyanghc-picture.oss-cn-beijing.aliyuncs.com/未命名文件.png)
 
 ```c
 int create(char* filename)// 根据指定的文件名创建新文件。
@@ -183,7 +183,7 @@ int create(char* filename)// 根据指定的文件名创建新文件。
 
 结果展示：当出现
 
-![](https://jackyanghc-picture.oss-cn-beijing.aliyuncs.com/20190607200811.png)
+![](https://neoyanghc-picture.oss-cn-beijing.aliyuncs.com/20190607200811.png)
 
 #### 4.3 文件的删除
 
@@ -220,7 +220,7 @@ int destroy(char* filename)// 删除指定文件。
 }
 ```
 
-![](https://jackyanghc-picture.oss-cn-beijing.aliyuncs.com/20190607201653.png)
+![](https://neoyanghc-picture.oss-cn-beijing.aliyuncs.com/20190607201653.png)
 
 #### 4.4 文件的重命名
 
@@ -255,13 +255,13 @@ int rename(char *old, char *new1)
 }
 ```
 
-![](https://jackyanghc-picture.oss-cn-beijing.aliyuncs.com/20190607205118.png)
+![](https://neoyanghc-picture.oss-cn-beijing.aliyuncs.com/20190607205118.png)
 
 #### 4.4 文件的目录
 
 编写directory函数通过位图进行文件的查找，将目录下的文件打印出来。
 
-![](https://jackyanghc-picture.oss-cn-beijing.aliyuncs.com/20190614210458.png)
+![](https://neoyanghc-picture.oss-cn-beijing.aliyuncs.com/20190614210458.png)
 
 ### TASK 5 文件打开和关闭
 
@@ -333,7 +333,7 @@ int close(int index)// 关闭制定文件。
 
 使用结果：
 
-![](https://jackyanghc-picture.oss-cn-beijing.aliyuncs.com/20190607210837.png)
+![](https://neoyanghc-picture.oss-cn-beijing.aliyuncs.com/20190607210837.png)
 
 ### TASK6 文件的写入和读出
 
@@ -341,7 +341,7 @@ int close(int index)// 关闭制定文件。
 
 每次再打开一个文件时，会通过文件表象进行文件指针的维护，文件指针指向默认对应文件数据的存储开始
 
-![](https://jackyanghc-picture.oss-cn-beijing.aliyuncs.com/20190614201020.png)
+![](https://neoyanghc-picture.oss-cn-beijing.aliyuncs.com/20190614201020.png)
 
 利用index和lseek函数进行查找，可以将其指向位置进行改变。
 
@@ -373,7 +373,7 @@ int lseek(int index, int pos)
 
 主要流程图如下所示：
 
-![](https://jackyanghc-picture.oss-cn-beijing.aliyuncs.com/未命名文件 (3).png)
+![](https://neoyanghc-picture.oss-cn-beijing.aliyuncs.com/未命名文件 (3).png)
 
 ```c
 int write(int index, string mem_area, int count)
@@ -407,7 +407,7 @@ int write(int index, string mem_area, int count)
 
 当磁盘块满时，进行空间申请，并且通过拉链的方式将数据连接起来
 
-![](https://jackyanghc-picture.oss-cn-beijing.aliyuncs.com/20190614205913.png)
+![](https://neoyanghc-picture.oss-cn-beijing.aliyuncs.com/20190614205913.png)
 
 #### 6.3 文件的读出
 
@@ -415,7 +415,7 @@ int write(int index, string mem_area, int count)
 
 如果磁盘被读取完毕，则将其指向指针指向的盘块
 
-![](https://jackyanghc-picture.oss-cn-beijing.aliyuncs.com/未命名文件 (4).png)
+![](https://neoyanghc-picture.oss-cn-beijing.aliyuncs.com/未命名文件 (4).png)
 
 ```c
 int read(int index, string mem_area, int count)
@@ -450,7 +450,7 @@ int read(int index, string mem_area, int count)
 
 #### 6.4 文件读取结果
 
-![](https://jackyanghc-picture.oss-cn-beijing.aliyuncs.com/20190614212536.png)
+![](https://neoyanghc-picture.oss-cn-beijing.aliyuncs.com/20190614212536.png)
 
 ### 实验总结
 

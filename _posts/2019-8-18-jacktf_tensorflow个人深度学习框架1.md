@@ -1,9 +1,9 @@
 ---
 layout:     post
-title:      "jacktf个人深度学习框架1_数据处理"
+title:      "neotf个人深度学习框架1_数据处理"
 subtitle:   " \"开始编写对应的data_process and data_provide 函数接口\""
 date:       2019-8-17 17:00:00
-author:     "jack"
+author:     "neo"
 header-img: "img/post-bg-tf.jpg"
 catalog: true
 tags:
@@ -14,7 +14,7 @@ tags:
 
 ### TFRecord，Tensorflow Data API 与 数据处理
 
-![](https://jackyanghc-picture.oss-cn-beijing.aliyuncs.com/20190821215921.png)
+![](https://neoyanghc-picture.oss-cn-beijing.aliyuncs.com/20190821215921.png)
 
 #### 1. 数据处理
 

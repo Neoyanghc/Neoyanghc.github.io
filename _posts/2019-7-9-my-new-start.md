@@ -3,7 +3,7 @@ layout:     post
 title:      "奇遇人生_my new start"
 subtitle:   " \"人生从未如此奇遇过\""
 date:       2019-7-9 13:00:00
-author:     "jack"
+author:     "neo"
 header-img: "img/post-bg-un.jpg"
 catalog: true
 tags:
@@ -52,10 +52,10 @@ tags:
 
 而且老师也爽快的愿意要我。开心。
 
-![](https://jackyanghc-picture.oss-cn-beijing.aliyuncs.com/2018afbe617cb97a800afaa56f678ba.jpg)
+![](https://neoyanghc-picture.oss-cn-beijing.aliyuncs.com/2018afbe617cb97a800afaa56f678ba.jpg)
 
 #### 后记
 
 希望有机会我们再见啦！，明天到家啦，一切尘埃落定的感觉好好啊，很开心的！
 
-![](https://jackyanghc-picture.oss-cn-beijing.aliyuncs.com/9289587bae7e3692047f3b58cb0f227.jpg)
+![](https://neoyanghc-picture.oss-cn-beijing.aliyuncs.com/9289587bae7e3692047f3b58cb0f227.jpg)

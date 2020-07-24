@@ -3,7 +3,7 @@ layout:     post
 title:      "吴恩达deepAI深度学习第一周课程学习笔记"
 subtitle:   " \"神经网络入门，关于池化，步长等基础操作\""
 date:       2018-12-3 17:00:00
-author:     "jack"
+author:     "neo"
 header-img: "img/post-bg-road.jpg"
 catalog: true
 tags:
@@ -24,7 +24,7 @@ cost function：将所有样本的值加在一起
 
 均方误差容易使得结果变得不收敛(convent function)。
 
-![](http://jackyanghc-picture.oss-cn-beijing.aliyuncs.com/007bgNxTly1g16rutewpbj316n05jmxy.jpg%29)
+![](http://neoyanghc-picture.oss-cn-beijing.aliyuncs.com/007bgNxTly1g16rutewpbj316n05jmxy.jpg%29)
 
 #### 二.导数与梯度下降
 
@@ -42,9 +42,9 @@ https://www.jianshu.com/p/498f7bf488a2
 
 1. 基础知识
 
-![](http://jackyanghc-picture.oss-cn-beijing.aliyuncs.com/007bgNxTly1g16ptu86yoj315q0c2gm9.jpg%29)
+![](http://neoyanghc-picture.oss-cn-beijing.aliyuncs.com/007bgNxTly1g16ptu86yoj315q0c2gm9.jpg%29)
 
-![](http://jackyanghc-picture.oss-cn-beijing.aliyuncs.com/007bgNxTly1g16pu8c8jxj30y605t3yt.jpg%29)
+![](http://neoyanghc-picture.oss-cn-beijing.aliyuncs.com/007bgNxTly1g16pu8c8jxj30y605t3yt.jpg%29)
 
 2. 利用chain rules 进行一步步求导
 3. 逻辑回归中的梯度下降法
@@ -67,7 +67,7 @@ $$
 
 前面过程的da、dz求导：
 
-![](http://jackyanghc-picture.oss-cn-beijing.aliyuncs.com/007bgNxTly1g16qat0iblj31c40r1myu.jpg%29)
+![](http://neoyanghc-picture.oss-cn-beijing.aliyuncs.com/007bgNxTly1g16qat0iblj31c40r1myu.jpg%29)
 
 #### 五.激活函数
 
@@ -87,17 +87,17 @@ leaky Relu（）一般比较好，但是不常用
 
 对m个样本来说，其Cost function表达式如下：
 
-![](http://jackyanghc-picture.oss-cn-beijing.aliyuncs.com/007bgNxTly1g16qcju7bej319u076dge.jpg%29)
+![](http://neoyanghc-picture.oss-cn-beijing.aliyuncs.com/007bgNxTly1g16qcju7bej319u076dge.jpg%29)
 
 Cost function 关于w和b的偏导数可以写成所有样本点偏导数和的平均形式：
 
-![](http://jackyanghc-picture.oss-cn-beijing.aliyuncs.com/007bgNxTly1g16qcv3rlgj311o07at8y.jpg%29)
+![](http://neoyanghc-picture.oss-cn-beijing.aliyuncs.com/007bgNxTly1g16qcv3rlgj311o07at8y.jpg%29)
 
 #### 七.神经网络的梯度下降法
 
  以本节中的浅层神经网络为例，我们给出神经网络的梯度下降法的公式。
 
-![](http://jackyanghc-picture.oss-cn-beijing.aliyuncs.com/007bgNxTly1g16qg4rywjj31700j6ae2.jpg%29)
+![](http://neoyanghc-picture.oss-cn-beijing.aliyuncs.com/007bgNxTly1g16qg4rywjj31700j6ae2.jpg%29)
 
 #### 八.随机化参数
 

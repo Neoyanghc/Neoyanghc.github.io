@@ -3,7 +3,7 @@ layout:     post
 title:      "论文笔记1:Visualizing and Understanding Convolution Networks"
 subtitle:   " \"第一篇提出可解性研究的论文，开山之作\""
 date:       2019-02-10 13:00:00
-author:     "jack"
+author:     "neo"
 header-img: "img/post-bg-sea.jpg"
 catalog: true
 tags:

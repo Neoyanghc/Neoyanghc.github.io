@@ -3,7 +3,7 @@ layout:     post
 title:      "论文笔记8:Sanity Checks for Saliency Maps"
 subtitle:   " \"可解释性方法好坏的一个度量\""
 date:       2019-08-10 13:00:00
-author:     "jack"
+author:     "neo"
 header-img: "img/post-bg-sea.jpg"
 catalog: true
 tags:
@@ -59,11 +59,11 @@ tags:
 
 1. 利用 **随机网络中的参数** 进行比较
 
-![](https://jackyanghc-picture.oss-cn-beijing.aliyuncs.com/20190809215940.png)
+![](https://neoyanghc-picture.oss-cn-beijing.aliyuncs.com/20190809215940.png)
 
 2. 利用 **随机数据标签** 进行比较
 
-![](https://jackyanghc-picture.oss-cn-beijing.aliyuncs.com/20190809220015.png)
+![](https://neoyanghc-picture.oss-cn-beijing.aliyuncs.com/20190809220015.png)
 
 ##### 4.实验发现
 

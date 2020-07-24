@@ -3,7 +3,7 @@ layout:     post
 title:      "ML 入门 机器学习部分算法"
 subtitle:   " \"介绍自己再matlab上实验的心得吧\""
 date:       2018-12-1 17:00:00
-author:     "jack"
+author:     "neo"
 header-img: "img/post-bg-road.jpg"
 catalog: true
 tags:
@@ -81,7 +81,7 @@ If α is too large: ￼may not decrease on every iteration and thus may not conv
 ### 正规分析
 梯度下降给了我们一种很好的处理min的方式
 还有一种就是正规分析
-![](http://jackyanghc-picture.oss-cn-beijing.aliyuncs.com/007bgNxTly1g1qkfmjq7jj30sv06ngm5.jpg%29)
+![](http://neoyanghc-picture.oss-cn-beijing.aliyuncs.com/007bgNxTly1g1qkfmjq7jj30sv06ngm5.jpg%29)
 
     theta = zeros(size(X, 2), 1);
     theta=inv(X'*X)*X'*y;

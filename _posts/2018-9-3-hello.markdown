@@ -3,7 +3,7 @@ layout:     post
 title:      "Hello World Hello blog "
 subtitle:   " \"世界很大，我很小\""
 date:       2018-9-3 23:00:00
-author:     "jack"
+author:     "neo"
 header-img: "img/post-bg-un.jpg"
 catalog: true
 tags:
@@ -17,7 +17,7 @@ tags:
 
 ## 前言
 
-Jack 的 Blog 就这么开通了。
+neo 的 Blog 就这么开通了。
 
 很开心能有灵感，来开通我自己的博客，希望以后能好好生活，不要虚度光阴哈哈。
 
@@ -33,7 +33,7 @@ Jack 的 Blog 就这么开通了。
 
 但是还是期待，能有一个流星，划过我的黑夜。
 
-![](http://jackyanghc-picture.oss-cn-beijing.aliyuncs.com/007bgNxTly1g1m1nuj7iqj30u014078q.jpg%29)
+![](http://neoyanghc-picture.oss-cn-beijing.aliyuncs.com/007bgNxTly1g1m1nuj7iqj30u014078q.jpg%29)
 
 ------
 
@@ -42,4 +42,4 @@ Jack 的 Blog 就这么开通了。
 
 说起这个网站的起因。其实作为一个程序员，我内心其实很粗，但是还想能记录自己来到过这个世界
 
-—— Jack
+—— neo

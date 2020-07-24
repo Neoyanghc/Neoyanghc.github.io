@@ -3,7 +3,7 @@ layout:     post
 title:      "论文笔记9:KSE for Interpretable CNN Compression"
 subtitle:   " \"网络压缩与可解释性\""
 date:       2019-08-27 13:00:00
-author:     "jack"
+author:     "neo"
 header-img: "img/post-bg-sea.jpg"
 catalog: true
 tags:
@@ -31,7 +31,7 @@ tags:
 
 比如在底层通过kerner卷积核先找到一些低维度的特征，然后在topconv上面得到一些高维的特征。
 
-![](https://jackyanghc-picture.oss-cn-beijing.aliyuncs.com/20190829143432.png)
+![](https://neoyanghc-picture.oss-cn-beijing.aliyuncs.com/20190829143432.png)
 
 因此就可以从kernel入手，去分析每个层上面每个kernel卷积核的重要性，然后根据衡量出来的重要性去取舍
 
@@ -39,7 +39,7 @@ tags:
 
 这篇文章提出了使用**KSE** (Kernel Sparsity and Entropy) 的方式进行计算，信息重要程度的衡量和计算
 
-![](https://jackyanghc-picture.oss-cn-beijing.aliyuncs.com/20190829143903.png)
+![](https://neoyanghc-picture.oss-cn-beijing.aliyuncs.com/20190829143903.png)
 
 **Kernel Sparsity：**这部分直接使用**L1-norms**将不重要的参数置为零，然后求和sum
 
@@ -47,7 +47,7 @@ tags:
 
 **KSE indicator：**定义对应方程，控制值在[0-1]之前
 
-![](https://jackyanghc-picture.oss-cn-beijing.aliyuncs.com/20190829145547.png)
+![](https://neoyanghc-picture.oss-cn-beijing.aliyuncs.com/20190829145547.png)
 
 这部分使用binary mask，来计算kernel的信息丰富度，主要是使用双线性插值方法将特征映射缩放到输入图像的分辨率
 
@@ -55,10 +55,10 @@ tags:
 
 ### 3. Experiment
 
-![](https://jackyanghc-picture.oss-cn-beijing.aliyuncs.com/20190829145940.png)
+![](https://neoyanghc-picture.oss-cn-beijing.aliyuncs.com/20190829145940.png)
 
 ### 4.Visualization Analysis
 
 虽然是在做压缩，但是这种方法也是利用到了解释性中的重要程度，利用heatmap的好坏去衡量这个feature map的重要性，是非常值得学习与借鉴的。
 
-![](https://jackyanghc-picture.oss-cn-beijing.aliyuncs.com/20190829150254.png)
+![](https://neoyanghc-picture.oss-cn-beijing.aliyuncs.com/20190829150254.png)

@@ -1,9 +1,9 @@
 ---
 layout:     post
-title:      "jacktf个人深度学习框架4_模型导出与test实现"
+title:      "neotf个人深度学习框架4_模型导出与test实现"
 subtitle:   " \"网络训练模型的导出与加载预测\""
 date:       2019-8-21 17:00:00
-author:     "jack"
+author:     "neo"
 header-img: "img/post-bg-tf.jpg"
 catalog: true
 tags:
@@ -14,7 +14,7 @@ tags:
 
 ## 模型导出ckpt，pb文件与predict.py实现
 
-![](https://jackyanghc-picture.oss-cn-beijing.aliyuncs.com/20190821221243.png)
+![](https://neoyanghc-picture.oss-cn-beijing.aliyuncs.com/20190821221243.png)
 
 
 
@@ -207,7 +207,7 @@ def generate_GradCAM_Image(self,save_dir,single_img,cam,save_name):
                   tf.sqrt(tf.reduce_mean(tf.square(grads_cam))) + tf.constant(1e-5))
 ```
 
-![](https://jackyanghc-picture.oss-cn-beijing.aliyuncs.com/Gram_cam_4320.jpg.png)
+![](https://neoyanghc-picture.oss-cn-beijing.aliyuncs.com/Gram_cam_4320.jpg.png)
 
 ### 3. Graph的改进和优化
 
@@ -219,5 +219,5 @@ def generate_GradCAM_Image(self,save_dir,single_img,cam,save_name):
  with tf.variable_scope('Grad_CAM_Operators')
 ```
 
-![](https://jackyanghc-picture.oss-cn-beijing.aliyuncs.com/graph_large_attrs_key=_too_large_attrs&limit_attr_size=1024&run=.png)
+![](https://neoyanghc-picture.oss-cn-beijing.aliyuncs.com/graph_large_attrs_key=_too_large_attrs&limit_attr_size=1024&run=.png)
 

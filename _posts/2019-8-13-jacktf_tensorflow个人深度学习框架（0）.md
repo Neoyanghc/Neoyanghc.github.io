@@ -1,9 +1,9 @@
 ---
 layout:     post
-title:      "jacktf个人深度学习框架_框架设计"
+title:      "neotf个人深度学习框架_框架设计"
 subtitle:   " \"设计编写自己能够完全使用的tf框架\""
 date:       2019-8-13 17:00:00
-author:     "jack"
+author:     "neo"
 header-img: "img/post-bg-tf.jpg"
 catalog: true
 tags:
@@ -56,7 +56,7 @@ tags:
 
 ### 3. 整体设计结构
 
-![](https://jackyanghc-picture.oss-cn-beijing.aliyuncs.com/未命名文件 (3).png)
+![](https://neoyanghc-picture.oss-cn-beijing.aliyuncs.com/未命名文件 (3).png)
 
 **开始实现吧！**
 
