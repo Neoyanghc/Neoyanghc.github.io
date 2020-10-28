@@ -52,10 +52,10 @@ tags:
 
 而且老师也爽快的愿意要我。开心。
 
-![](https://neoyanghc-picture.oss-cn-beijing.aliyuncs.com/2018afbe617cb97a800afaa56f678ba.jpg)
+![](https://jackyanghc-picture.oss-cn-beijing.aliyuncs.com/2018afbe617cb97a800afaa56f678ba.jpg)
 
 #### 后记
 
 希望有机会我们再见啦！，明天到家啦，一切尘埃落定的感觉好好啊，很开心的！
 
-![](https://neoyanghc-picture.oss-cn-beijing.aliyuncs.com/9289587bae7e3692047f3b58cb0f227.jpg)
+![](https://jackyanghc-picture.oss-cn-beijing.aliyuncs.com/9289587bae7e3692047f3b58cb0f227.jpg)

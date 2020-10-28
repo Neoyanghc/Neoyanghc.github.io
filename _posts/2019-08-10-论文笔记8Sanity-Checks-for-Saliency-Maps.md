@@ -59,11 +59,11 @@ tags:
 
 1. 利用 **随机网络中的参数** 进行比较
 
-![](https://neoyanghc-picture.oss-cn-beijing.aliyuncs.com/20190809215940.png)
+![](https://jackyanghc-picture.oss-cn-beijing.aliyuncs.com/20190809215940.png)
 
 2. 利用 **随机数据标签** 进行比较
 
-![](https://neoyanghc-picture.oss-cn-beijing.aliyuncs.com/20190809220015.png)
+![](https://jackyanghc-picture.oss-cn-beijing.aliyuncs.com/20190809220015.png)
 
 ##### 4.实验发现
 

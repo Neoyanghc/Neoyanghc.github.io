@@ -24,7 +24,7 @@ tags:
 
    **在yolo算法进行执行时，第一步是进行对图片的resize（ 448 × 448  ） 和 grid 网格的划分。然后，通过不同的网格来计算bounding box的五项值，分别为目标点中心点（x,y）,box的长宽（w,h）,还有置信度（confidence）。这其实在yolo1中是一个回归问题。回归计算出这些值。一般来说bounding box 的多少是前期设定的。这么做是为了避免一个grid中有多个object的中心点。执行后会生成 一个多维矩阵。这些都比较能够简单理解。**
 
-**![](http://neoyanghc-picture.oss-cn-beijing.aliyuncs.com/007bgNxTly1g1omxvmpgdj313z0h047w.jpg%29)**
+**![](http://jackyanghc-picture.oss-cn-beijing.aliyuncs.com/007bgNxTly1g1omxvmpgdj313z0h047w.jpg%29)**
 
   **但是我们的问题是** 
 
@@ -33,13 +33,13 @@ tags:
 
 **直观的解释这个问题，可以看一张网上运行yolo的图，可以直接发现，其中box并没有一定比例。（难道说那个比率也是学习出来的？）**
 
-**![](http://neoyanghc-picture.oss-cn-beijing.aliyuncs.com/007bgNxTly1g1on52jvwkj31bf0fenmj.jpg%29)**
+**![](http://jackyanghc-picture.oss-cn-beijing.aliyuncs.com/007bgNxTly1g1on52jvwkj31bf0fenmj.jpg%29)**
 
 **但是为什么anchor box 提出的时候用的是两个横纵比不一样的图呢，其实我个人认为就是在区分有两个box，而这两个box本质上是没有区别的。**
 
 **而且我们为啥会想到box是提前设好长宽比例的呢，其实是因为我们混淆了滑动窗口检测和yolo的区别。滑动窗口被替代的注意原因就是计算量太多，而且box大小不一致。所有在yolo中这些值都是回归计算，通过loss函数惩罚算出来的。具有比较好的鲁棒性。**
 
-**![](http://neoyanghc-picture.oss-cn-beijing.aliyuncs.com/007bgNxTly1g1oners0xlj31720r17mi.jpg%29)**
+**![](http://jackyanghc-picture.oss-cn-beijing.aliyuncs.com/007bgNxTly1g1oners0xlj31720r17mi.jpg%29)**
 
 **但是也不得不说，yolo算法只有两个box也算是它的一个缺点，对那种靠的很近的多目标检测就比较有问题。**
 
@@ -68,7 +68,7 @@ tags:
 
 **我的个人想法是将单图片级别上升到多图片的类。也是受人脸识别的三元组启发。**
 
-**![](http://neoyanghc-picture.oss-cn-beijing.aliyuncs.com/007bgNxTly1g1onvyxxnkj31b60j44bi.jpg%29)**
+**![](http://jackyanghc-picture.oss-cn-beijing.aliyuncs.com/007bgNxTly1g1onvyxxnkj31b60j44bi.jpg%29)**
 
 **我们也可以对这么这个网络中的多个类中的多个图片进行建立三元组，然后分析出他们直接有什么共同特征都被这个网络识别到了，通过这种来解释我们的网络**
 
@@ -76,7 +76,7 @@ tags:
 
 **现在的方面都是在网络训练结束后才来对比，但是我们可以从一开始就从那几个方面来定义一个差距方程，计算完后来看这两种图片计算后的差距是多大，可以是阈值也可以是具体值。**
 
-**![](http://neoyanghc-picture.oss-cn-beijing.aliyuncs.com/007bgNxTly1g1oo27ethvj31py0zcnpd.jpg%29)**
+**![](http://jackyanghc-picture.oss-cn-beijing.aliyuncs.com/007bgNxTly1g1oo27ethvj31py0zcnpd.jpg%29)**
 
 ### **4.总结**
 

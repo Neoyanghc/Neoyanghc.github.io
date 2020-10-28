@@ -25,7 +25,7 @@ tags:
 
 传统的卷积滤波是广义线性模型GLM,而我认为它的抽象程度较低。这里我们转而利用非线性函数逼近器来增强局部模型的抽象能力
 
-![](http://neoyanghc-picture.oss-cn-beijing.aliyuncs.com/007bgNxTly1g1hl8ol221j30sa0dsjvs.jpg%29)
+![](http://jackyanghc-picture.oss-cn-beijing.aliyuncs.com/007bgNxTly1g1hl8ol221j30sa0dsjvs.jpg%29)
 
 ### 3.GAP
 
@@ -35,7 +35,7 @@ tags:
 
 当分类的类别有4种时，则最后的 global average pooling 应该是这样的：
 
-![](http://neoyanghc-picture.oss-cn-beijing.aliyuncs.com/007bgNxTly1g1hlp4438mj30ld0f50td.jpg%29)
+![](http://jackyanghc-picture.oss-cn-beijing.aliyuncs.com/007bgNxTly1g1hlp4438mj30ld0f50td.jpg%29)
 
 
 
@@ -45,5 +45,5 @@ tags:
 
 下图展示了CIFAR-10上测试集上选择的10类的一些示例图和相关特征图。如预期，特征图的最大激活区域和输入的相关真实分类吻合，这明显是GAP加强过的。在真实分类的特征图内，可以看到最大的激活区域出现在与原物体相同的区域，在结构化物体中尤其如此
 
-![](http://neoyanghc-picture.oss-cn-beijing.aliyuncs.com/007bgNxTly1g1hlpwmn19j30qe0hgafv.jpg%29)
+![](http://jackyanghc-picture.oss-cn-beijing.aliyuncs.com/007bgNxTly1g1hlpwmn19j30qe0hgafv.jpg%29)
 

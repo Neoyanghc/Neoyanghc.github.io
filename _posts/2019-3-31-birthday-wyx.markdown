@@ -31,7 +31,7 @@ tags:
 
 鉴于是你的生日，那我还是正儿八经夸夸你吧！
 
-![](http://neoyanghc-picture.oss-cn-beijing.aliyuncs.com/007bgNxTly1g1mub7yaulj30u00u0wgj.jpg%29)
+![](http://jackyanghc-picture.oss-cn-beijing.aliyuncs.com/007bgNxTly1g1mub7yaulj30u00u0wgj.jpg%29)
 
 这是认识你的第7年啦，从来没想过有此机会跟你说点啥哈哈哈。以前高中做同桌的时候，没做两个月你就抛弃了我，我现在还怀恨在心哈哈哈，开玩笑啦，还不因为你有对象。。。天天酸我。我才不想跟你做同桌哈哈哈。
 
@@ -41,7 +41,7 @@ tags:
 
 你性格超好，我编不下去了，加油吧，砥砺奋进再五年哈哈哈。就像我们的群名9012冲刺班，快乐快乐一起走。
 
-![](http://neoyanghc-picture.oss-cn-beijing.aliyuncs.com/007bgNxTly1g1mu7tbn1nj30u00u03zs.jpg%29)
+![](http://jackyanghc-picture.oss-cn-beijing.aliyuncs.com/007bgNxTly1g1mu7tbn1nj30u00u03zs.jpg%29)
 
 
 ## 后记
@@ -50,6 +50,6 @@ tags:
 
 今晚真的超开心，又一次认识到你们对我很重要。
 
-![](http://neoyanghc-picture.oss-cn-beijing.aliyuncs.com/007bgNxTly1g1mu70r12bj31090fix1c.jpg%29)
+![](http://jackyanghc-picture.oss-cn-beijing.aliyuncs.com/007bgNxTly1g1mu70r12bj31090fix1c.jpg%29)
 
 Tonight, we really had a good time.

@@ -21,14 +21,14 @@ tags:
 
 #### 1.1 Padding 计算公式
 
-![](http://neoyanghc-picture.oss-cn-beijing.aliyuncs.com/007bgNxTly1g16xtrnch0j30yi0gijth.jpg%29)
+![](http://jackyanghc-picture.oss-cn-beijing.aliyuncs.com/007bgNxTly1g16xtrnch0j30yi0gijth.jpg%29)
 $$
 n×n×n_c ∗ f×f×n'_c —>⌊\frac{n+2p−f}{s} +1⌋×⌊\frac{n+2p−f}{s}+1⌋×n′_c
 $$
 
 #### 1.2pooling计算公式
 
-![](http://neoyanghc-picture.oss-cn-beijing.aliyuncs.com/007bgNxTly1g16y0ef908j30xz0jv45b.jpg%29)
+![](http://jackyanghc-picture.oss-cn-beijing.aliyuncs.com/007bgNxTly1g16y0ef908j30xz0jv45b.jpg%29)
 $$
 n×n ∗ f×f —>⌊\frac{n+2p−f}{s} +1⌋×⌊\frac{n+2p−f}{s}+1⌋
 $$
@@ -39,14 +39,14 @@ $$
 
 #### 2.1经典网络
 
-![](http://neoyanghc-picture.oss-cn-beijing.aliyuncs.com/007bgNxTly1g16y8yur9jj31m90pawfk.jpg%29)
+![](http://jackyanghc-picture.oss-cn-beijing.aliyuncs.com/007bgNxTly1g16y8yur9jj31m90pawfk.jpg%29)
 
 在LetNet中，存在的经典模式：
 
 - 随着网络的深度增加，图像的大小在缩小，与此同时，通道的数量却在增加；
 - 每个卷积层后面接一个池化层。
 
-![](http://neoyanghc-picture.oss-cn-beijing.aliyuncs.com/007bgNxTly1g16yazz8y6j31lv0tvq52.jpg%29)
+![](http://jackyanghc-picture.oss-cn-beijing.aliyuncs.com/007bgNxTly1g16yazz8y6j31lv0tvq52.jpg%29)
 
 - 与LeNet相似，但网络结构更大，参数更多，表现更加出色；
 - 使用了Relu；
@@ -55,11 +55,11 @@ $$
 
 VGG卷积层和池化层均具有相同的卷积核大小，都使用3×3，stride=1,SAME3×3，stride=1,SAME的卷积和2×2，stride=22×2，stride=2 的池化。其结构如下：
 
-![](http://neoyanghc-picture.oss-cn-beijing.aliyuncs.com/007bgNxTly1g16yaiuoi2j31kc0uqdhm.jpg%29)
+![](http://jackyanghc-picture.oss-cn-beijing.aliyuncs.com/007bgNxTly1g16yaiuoi2j31kc0uqdhm.jpg%29)
 
 #### 2.2.残差网络
 
-![](http://neoyanghc-picture.oss-cn-beijing.aliyuncs.com/007bgNxTly1g16ym99g9gj31by0pwmz0.jpg%29)
+![](http://jackyanghc-picture.oss-cn-beijing.aliyuncs.com/007bgNxTly1g16ym99g9gj31by0pwmz0.jpg%29)
 
 计算出一个捷径，将a[l]加到下两层激活层中去。
 $$
@@ -71,11 +71,11 @@ ResNet对于中间的激活函数来说，有助于能够达到更深的网络�
 
 假设有个比较大的神经网络，输入为x，输出为a[l]。如果我们想增加网络的深度，这里再给网络增加一个残差块：
 
-![](http://neoyanghc-picture.oss-cn-beijing.aliyuncs.com/007bgNxTly1g16yrt771rj31an0mvjy6.jpg%29)
+![](http://jackyanghc-picture.oss-cn-beijing.aliyuncs.com/007bgNxTly1g16yrt771rj31an0mvjy6.jpg%29)
 
 所以从上面的结果我们可以看出，对于残差块来学习上面这个恒等函数是很容易的。所以在增加了残差块后更深的网络的性能也并不逊色于没有增加残差块简单的网络。所以尽管增加了网络的深度，但是并不会影响网络的性能。同时如果增加的网络结构能够学习到一些有用的信息，那么就会提升网络的性能。
 
-![](http://neoyanghc-picture.oss-cn-beijing.aliyuncs.com/007bgNxTly1g16z5pm8y5j31ju0hftv4.jpg%29)
+![](http://jackyanghc-picture.oss-cn-beijing.aliyuncs.com/007bgNxTly1g16z5pm8y5j31ju0hftv4.jpg%29)
 
 
 
@@ -87,7 +87,7 @@ ResNet对于中间的激活函数来说，有助于能够达到更深的网络�
 
 Inception Network 的作用就是使我们无需去考虑在构建深度卷积神经网络时，使用多大的卷积核以及是否添加池化层等问题。
 
-![](http://neoyanghc-picture.oss-cn-beijing.aliyuncs.com/007bgNxTly1g16yev3d6wj31am0he74o.jpg%29)
+![](http://jackyanghc-picture.oss-cn-beijing.aliyuncs.com/007bgNxTly1g16yev3d6wj31am0he74o.jpg%29)
 
 在上面的Inception结构中，应用了不同的卷积核，以及带padding的池化层。在保持输入图片大小不变的情况下，通过不同运算结果的叠加，增加了通道的数量。
 
@@ -109,11 +109,11 @@ Inception Network 的作用就是使我们无需去考虑在构建深度卷积�
 
 #### 3.1目标定位分类
 
-![](http://neoyanghc-picture.oss-cn-beijing.aliyuncs.com/007bgNxTly1g16z7xitvej31br0r7jtd.jpg%29)
+![](http://jackyanghc-picture.oss-cn-beijing.aliyuncs.com/007bgNxTly1g16z7xitvej31br0r7jtd.jpg%29)
 
 其中bx、by表示汽车中点bh、bw分别表示定位框的高和宽。以图片左上角为(0,0)，以右下角为(1,1)，这些数字均为位置或长度所在图片的比例大小。
 
-![](http://neoyanghc-picture.oss-cn-beijing.aliyuncs.com/007bgNxTly1g16z8ylvwtj319x0lr77m.jpg%29)
+![](http://jackyanghc-picture.oss-cn-beijing.aliyuncs.com/007bgNxTly1g16z8ylvwtj319x0lr77m.jpg%29)
 
 #### 3.2目标检测
 

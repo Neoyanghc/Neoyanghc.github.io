@@ -14,7 +14,7 @@ tags:
 
 ### TFRecord，Tensorflow Data API 与 数据处理
 
-![](https://neoyanghc-picture.oss-cn-beijing.aliyuncs.com/20190821215921.png)
+![](https://jackyanghc-picture.oss-cn-beijing.aliyuncs.com/20190821215921.png)
 
 #### 1. 数据处理
 

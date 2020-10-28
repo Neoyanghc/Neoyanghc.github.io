@@ -46,7 +46,7 @@ tags:
 
 主要是利用**activation maximum** ,通过反向推导找到对应类最典型的图片（生成的）。
 
-![](http://neoyanghc-picture.oss-cn-beijing.aliyuncs.com/007bgNxTly1g1p6tvsjzgj31760jte42.jpg%29)
+![](http://jackyanghc-picture.oss-cn-beijing.aliyuncs.com/007bgNxTly1g1p6tvsjzgj31760jte42.jpg%29)
 
 缺点: 没有办法针对**细节**(颜色，质地等)
 
@@ -56,11 +56,11 @@ tags:
 
 主要原理是通过输入x对输出y的影响程度来对x的每一个特征(分量)进行打分, 通过对打分进行可视化,最终将形成一张heatmapping.而打分的方法, 使用非常符合直觉的梯度.
 
-![](http://neoyanghc-picture.oss-cn-beijing.aliyuncs.com/007bgNxTly1g1pm5spmcvj31a70u4dsd.jpg%29)
+![](http://jackyanghc-picture.oss-cn-beijing.aliyuncs.com/007bgNxTly1g1pm5spmcvj31a70u4dsd.jpg%29)
 
 有三种典型的SA方法，如下所示，但是通过不同的方法引入概率，来对SA进行改良可以使结果变得更好。也可以用图像编码的方式来改善。
 
-![](http://neoyanghc-picture.oss-cn-beijing.aliyuncs.com/007bgNxTly1g1pmg67ps4j30wp11ldom.jpg%29)
+![](http://jackyanghc-picture.oss-cn-beijing.aliyuncs.com/007bgNxTly1g1pmg67ps4j30wp11ldom.jpg%29)
 
 缺点：噪声比较大，不适合用于深层的梯度爆炸网络
 
@@ -93,7 +93,7 @@ tags:
 
 举一个图片flipping的例子：
 
-![](http://neoyanghc-picture.oss-cn-beijing.aliyuncs.com/007bgNxTly1g1pnqsid26j30xn0rj0zj.jpg%29)
+![](http://jackyanghc-picture.oss-cn-beijing.aliyuncs.com/007bgNxTly1g1pnqsid26j30xn0rj0zj.jpg%29)
 
 
 

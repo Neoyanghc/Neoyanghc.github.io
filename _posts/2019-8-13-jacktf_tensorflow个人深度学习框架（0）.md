@@ -56,7 +56,7 @@ tags:
 
 ### 3. 整体设计结构
 
-![](https://neoyanghc-picture.oss-cn-beijing.aliyuncs.com/未命名文件 (3).png)
+![](https://jackyanghc-picture.oss-cn-beijing.aliyuncs.com/未命名文件 (3).png)
 
 **开始实现吧！**
 

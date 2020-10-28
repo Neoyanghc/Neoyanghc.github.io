@@ -20,7 +20,7 @@ tags:
 
 从得知我们可以见面开始，就一直很开心。虽然从我家到北站要好久好久，但是还是依然去接了我李姐。
 
-![](https://neoyanghc-picture.oss-cn-beijing.aliyuncs.com/ffc4748ed0a25e0a221703d21604f0c.jpg)
+![](https://jackyanghc-picture.oss-cn-beijing.aliyuncs.com/ffc4748ed0a25e0a221703d21604f0c.jpg)
 
 
 
@@ -30,7 +30,7 @@ tags:
 
 去超市直接走到酸奶冰箱，然后变成老年人去买疏菜，搞得我们好像会做一样哈哈哈！
 
-![](https://neoyanghc-picture.oss-cn-beijing.aliyuncs.com/73b24273cea35197068765ce8f79671.jpg)
+![](https://jackyanghc-picture.oss-cn-beijing.aliyuncs.com/73b24273cea35197068765ce8f79671.jpg)
 
 ### Part 2 优秀的婕婕
 
@@ -38,7 +38,7 @@ tags:
 
 什么冰箱里有冰淇淋，有喝的，然后零食随便吃！！！！！这感觉爱了，必须爱了
 
-![](https://neoyanghc-picture.oss-cn-beijing.aliyuncs.com/5a9b14b0a18bee8b2275833daba768f.jpg)
+![](https://jackyanghc-picture.oss-cn-beijing.aliyuncs.com/5a9b14b0a18bee8b2275833daba768f.jpg)
 
 
 
@@ -52,13 +52,13 @@ tags:
 
 然后就聊天，聊八卦。王姐调的酒真的值得赞扬。
 
-![](https://neoyanghc-picture.oss-cn-beijing.aliyuncs.com/38838ce215849fd4da1be80e733983e.jpg)
+![](https://jackyanghc-picture.oss-cn-beijing.aliyuncs.com/38838ce215849fd4da1be80e733983e.jpg)
 
 ### Part 4 相遇明天
 
 不管未来怎么样，明天怎么样。我们都会变得更好，不论北京，上海，还是国内，国外。
 
-![](https://neoyanghc-picture.oss-cn-beijing.aliyuncs.com/da323c2c47c75a88b4d0e522a5d5d9b.jpg)
+![](https://jackyanghc-picture.oss-cn-beijing.aliyuncs.com/da323c2c47c75a88b4d0e522a5d5d9b.jpg)
 
 ### Part 5 **2020见！！！**
 

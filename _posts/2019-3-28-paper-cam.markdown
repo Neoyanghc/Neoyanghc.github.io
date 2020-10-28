@@ -28,13 +28,13 @@ global average pooling(gap)不仅仅是一个regularizer，还能够将卷积层
 
 作者将VGG、GoogleNet、AlexNet的最后几层去掉，一般是去掉的全连接层，然后作者加入3*3，stride为1，pad为1的卷积层，之后是14*14的Average Pool层，然后就是softmax层，对这个新的网络进行fine-tuned。等到收敛之后，通过每一层卷积层的输出乘以这一层对应分类的权重，然后对结果加权，就可以得到热成像图，最后就得到了class activation map，叠加在原图上就可以有以上的效果。
 
-![](http://neoyanghc-picture.oss-cn-beijing.aliyuncs.com/007bgNxTly1g1hmik7lm5j30rv0e10xx.jpg%29)
+![](http://jackyanghc-picture.oss-cn-beijing.aliyuncs.com/007bgNxTly1g1hmik7lm5j30rv0e10xx.jpg%29)
 
 
 
 比如说有人预测澳大利亚犬的那组参数(w1,w2,,,wn)，对前面的最后一个卷积层的n张feature map进行加权，就可以得到澳大利亚犬的class activation map，这张map上激活值越大的地方，表示这个地方更有可能是属于澳大利亚犬，对这张class activation map求平均，其实就是这张图属于澳大利亚犬的概率，也就是图上的灰色圆对应的值。我们去找class activation map上的热区，其实就是在对物体进行定位。
 
-​                   ![](http://neoyanghc-picture.oss-cn-beijing.aliyuncs.com/007bgNxTly1g1hmj7e49tj30d408l45x.jpg%29)
+​                   ![](http://jackyanghc-picture.oss-cn-beijing.aliyuncs.com/007bgNxTly1g1hmj7e49tj30d408l45x.jpg%29)
 
 上面这张图截取了top-5预测类别对应的CAM，可以看到，对于不同的类别，网络可以找到各自的具有区分性或者有信息量的区域，比如对于palace，更多的集中在正面的围墙建筑，对于dome的话，就集中在圆屋顶那个位置。同样，对于狗和鸡的分类，热区更多地集中在他们的头部。对于杠铃，则几种在两边的铁块上。
 

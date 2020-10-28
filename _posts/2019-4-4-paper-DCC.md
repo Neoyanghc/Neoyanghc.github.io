@@ -29,7 +29,7 @@ tags:
 
 数据样本不够怎么使用深度学习？大家第一时间想到的肯定是微调已经训练好的模型，像VGG、Inception、Resnet这样的模型，但是有时我们可能会发现，有时微调后的效果并不是很好，可能会需要微调好多层才能得到较好的效果，但是这往往需要大量的样本，但当我们仅有少量或没有带标注的数据时，我们就无法有效的通过微调网络来实现对新样本的识别。
 
-![](http://neoyanghc-picture.oss-cn-beijing.aliyuncs.com/007bgNxTly1g1wmsaluwsj30f5089mxx.jpg%29)
+![](http://jackyanghc-picture.oss-cn-beijing.aliyuncs.com/007bgNxTly1g1wmsaluwsj30f5089mxx.jpg%29)
 
 存在这一问题的主要原因是源数据与目标数据之间的分布情况不同，所以，在面对新样本时，我们需要使源数据与目标数据之间具有相似的分布情况，这也就是所说的域适应问题，如图所示。这篇论文认为，迁移学习中优化域不变性的任务，可以被认为等同于学习预测类标签的任务，同时找到使域尽可能相似的表示形式。
 
@@ -39,18 +39,18 @@ tags:
 
 将网络不仅在源域上面训练，而且将目标域和源域的差距考虑进行，对网络进行再训练
 
-![](http://neoyanghc-picture.oss-cn-beijing.aliyuncs.com/007bgNxTly1g1wn4h65lnj309r0b674p.jpg%29)
+![](http://jackyanghc-picture.oss-cn-beijing.aliyuncs.com/007bgNxTly1g1wn4h65lnj309r0b674p.jpg%29)
 
 loss函数，不仅需要对分类完成的好，而且要能缩小两者差距。
 
-![](http://neoyanghc-picture.oss-cn-beijing.aliyuncs.com/007bgNxTly1g1wn5a65s3j30c5013t8k.jpg%29)
+![](http://jackyanghc-picture.oss-cn-beijing.aliyuncs.com/007bgNxTly1g1wn5a65s3j30c5013t8k.jpg%29)
 
 网络结构设计时做了两个选择题。
 
 - adaptation layer 在哪里设置
 - 输出的维度，MMD的维度
 
-![](http://neoyanghc-picture.oss-cn-beijing.aliyuncs.com/007bgNxTly1g1wncyfduxj30r80a3wfy.jpg%29)
+![](http://jackyanghc-picture.oss-cn-beijing.aliyuncs.com/007bgNxTly1g1wncyfduxj30r80a3wfy.jpg%29)
 
 ### 4. 如何训练网络
 
@@ -66,5 +66,5 @@ loss函数，不仅需要对分类完成的好，而且要能缩小两者差距�
 
 figure 中展示了fc7 对数据相关性的比较。可以看到此网络显著减少了不同数据之间的相关性
 
-![](http://neoyanghc-picture.oss-cn-beijing.aliyuncs.com/007bgNxTly1g24uym6wjgj30zq0zmnmr.jpg%29)
+![](http://jackyanghc-picture.oss-cn-beijing.aliyuncs.com/007bgNxTly1g24uym6wjgj30zq0zmnmr.jpg%29)
 

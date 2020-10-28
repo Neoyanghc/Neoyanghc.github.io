@@ -30,7 +30,7 @@ tags:
 
 + p4最后一个执行，利用wait(p2_signal),wait(p3_signal)来等待所有进程都结束
 
-![](http://neoyanghc-picture.oss-cn-beijing.aliyuncs.com/007bgNxTly1g1o3fogab4j31hs0gpmyo.jpg%29)
+![](http://jackyanghc-picture.oss-cn-beijing.aliyuncs.com/007bgNxTly1g1o3fogab4j31hs0gpmyo.jpg%29)
 
 #### 1.2 实验代码
 
@@ -108,7 +108,7 @@ int main(int argc, char *argv[])
 
 我们利用fork函数产生的进程数如下：
 
-![](http://neoyanghc-picture.oss-cn-beijing.aliyuncs.com/007bgNxTly1g1vdtfmjd1j30bk0cgdfz.jpg%29)
+![](http://jackyanghc-picture.oss-cn-beijing.aliyuncs.com/007bgNxTly1g1vdtfmjd1j30bk0cgdfz.jpg%29)
 
 #### 1.3 实验结果
 
@@ -116,11 +116,11 @@ int main(int argc, char *argv[])
 
 1. `p1->p2->p3->p4`
 
-![](http://neoyanghc-picture.oss-cn-beijing.aliyuncs.com/007bgNxTly1g1mx4ax2jsj30yr059js8.jpg%29)
+![](http://jackyanghc-picture.oss-cn-beijing.aliyuncs.com/007bgNxTly1g1mx4ax2jsj30yr059js8.jpg%29)
 
 2. `p1->p3->p2->p4`
 
-![](http://neoyanghc-picture.oss-cn-beijing.aliyuncs.com/007bgNxTly1g1m0014xv0j30zq0adwg3.jpg%29)
+![](http://jackyanghc-picture.oss-cn-beijing.aliyuncs.com/007bgNxTly1g1m0014xv0j30zq0adwg3.jpg%29)
 
 #####1.4 结果解释
 
@@ -222,7 +222,7 @@ int main(int argc, char *argv[])
 
 而下面的答案确不如人意。
 
-![](http://neoyanghc-picture.oss-cn-beijing.aliyuncs.com/007bgNxTly1g1qkkprklhj319108c0wd.jpg%29)
+![](http://jackyanghc-picture.oss-cn-beijing.aliyuncs.com/007bgNxTly1g1qkkprklhj319108c0wd.jpg%29)
 
 分析结果：
 
@@ -251,9 +251,9 @@ void *worker1(void *arg)
 
 运行实验可以看到。现在不再有错误.
 
-![](http://neoyanghc-picture.oss-cn-beijing.aliyuncs.com/007bgNxTly1g1mxrlgo50j312m02rwez.jpg%29)
+![](http://jackyanghc-picture.oss-cn-beijing.aliyuncs.com/007bgNxTly1g1mxrlgo50j312m02rwez.jpg%29)
 
-![](http://neoyanghc-picture.oss-cn-beijing.aliyuncs.com/007bgNxTly1g1mxq92bmej318q03imy3.jpg%29)
+![](http://jackyanghc-picture.oss-cn-beijing.aliyuncs.com/007bgNxTly1g1mxq92bmej318q03imy3.jpg%29)
 
 #### 2.3 实验总结
 
@@ -345,11 +345,11 @@ int main(int argc,char *argv[])
 
 #### 3.3 实验结果
 
-![](http://neoyanghc-picture.oss-cn-beijing.aliyuncs.com/007bgNxTly1g1m0g2z3q9j30x20iijs2.jpg%29)
+![](http://jackyanghc-picture.oss-cn-beijing.aliyuncs.com/007bgNxTly1g1m0g2z3q9j30x20iijs2.jpg%29)
 
 当我加入判断机制时，可以将buff状态输出，并且避免输入和输出不同速而导致的输入为打印就被重写的情况
 
-![](http://neoyanghc-picture.oss-cn-beijing.aliyuncs.com/007bgNxTly1g1qkm9udf9j30r6075gm7.jpg%29)
+![](http://jackyanghc-picture.oss-cn-beijing.aliyuncs.com/007bgNxTly1g1qkm9udf9j30r6075gm7.jpg%29)
 
 ### Task 4
 
@@ -584,7 +584,7 @@ int main(int argc,char *argv[])
 
 + 利用有信号量的原始代码进行运行，我们发现没有任何错误。
 
-  ![](http://neoyanghc-picture.oss-cn-beijing.aliyuncs.com/007bgNxTly1g1t96qh3x0j30ze0jq76g.jpg%29)
+  ![](http://jackyanghc-picture.oss-cn-beijing.aliyuncs.com/007bgNxTly1g1t96qh3x0j30ze0jq76g.jpg%29)
 
 + 删除代码中的共享部分，参考博客中的解释，删除代码，并加入循环和sleep()来输出。
 
@@ -619,7 +619,7 @@ int main(int argc,char *argv[])
   }
   ```
 
-  ![](http://neoyanghc-picture.oss-cn-beijing.aliyuncs.com/007bgNxTly1g1t9m7bqgsj30ye0i540i.jpg%29)
+  ![](http://jackyanghc-picture.oss-cn-beijing.aliyuncs.com/007bgNxTly1g1t9m7bqgsj30ye0i540i.jpg%29)
 
   我们可以看到，现在receiver.c一直在读内存中的字符，但是存在的问题是生产者消费者的典型问题：
 
@@ -687,7 +687,7 @@ int main(int argc,char *argv[])
   }
   ```
 
-+ ![](http://neoyanghc-picture.oss-cn-beijing.aliyuncs.com/007bgNxTly1g1ta0teugkj30xu0j7q50.jpg%29)
++ ![](http://jackyanghc-picture.oss-cn-beijing.aliyuncs.com/007bgNxTly1g1ta0teugkj30xu0j7q50.jpg%29)
 
 
 
@@ -767,7 +767,7 @@ int main()
 
   这里将父进程设置为读进程，子进程设置为写进程，我们在Linux终端下将其编译运行：
 
-  ![](http://neoyanghc-picture.oss-cn-beijing.aliyuncs.com/007bgNxTly1g1tanyhigfj30x401qq35.jpg%29)
+  ![](http://jackyanghc-picture.oss-cn-beijing.aliyuncs.com/007bgNxTly1g1tanyhigfj30x401qq35.jpg%29)
 
 2. 有名管道
 
@@ -892,7 +892,7 @@ int main()
 
 在Linux终端在编译并运行：
 
-![](http://neoyanghc-picture.oss-cn-beijing.aliyuncs.com/007bgNxTly1g1taq9p2tuj30zp0j5abo.jpg%29)
+![](http://jackyanghc-picture.oss-cn-beijing.aliyuncs.com/007bgNxTly1g1taq9p2tuj30zp0j5abo.jpg%29)
 
 由图所示，当写进程单独运行时，尽管管道中不存在数据，但其仍处于阻塞状态，随后读进程进入之后，读写进程之间实现了通信，进程得以工作并静止，这与上文的描述相符，完成了实验的验证。
 
@@ -1066,7 +1066,7 @@ int main(int argc, char *argv[])
 }
 ```
 
-![](http://neoyanghc-picture.oss-cn-beijing.aliyuncs.com/007bgNxTly1g1ta68xysxj30yz0eh75p.jpg%29)
+![](http://jackyanghc-picture.oss-cn-beijing.aliyuncs.com/007bgNxTly1g1ta68xysxj30yz0eh75p.jpg%29)
 
 在此机制中，发送端传送的消息都会加入一个消息队列，这个队列中的消息节点的大小和类型由我们编写程序之时自行定义。写进程在此机制中不会被阻塞，其写入的字符串会一直被添加至队列的末端，而读进程会从队列的首端一直读取消息，消息节点一旦被读取便会移除队列。当队列中不含其需要类型的消息时便会阻塞。
 
@@ -1074,7 +1074,7 @@ int main(int argc, char *argv[])
 
 为验证我们得出的阻塞规则，我们可以先只开启客户端进行多条信息传输，再开启服务端观察结果：
 
-![](http://neoyanghc-picture.oss-cn-beijing.aliyuncs.com/007bgNxTly1g1tafkbczbj30zt0g8765.jpg%29)
+![](http://jackyanghc-picture.oss-cn-beijing.aliyuncs.com/007bgNxTly1g1tafkbczbj30zt0g8765.jpg%29)
 
 可以发现这个完全符合我们的要求和想法。
 
@@ -1215,7 +1215,7 @@ thread_block (void)
 
 递归的看，我们发现它的核心在于调用了`schedule ();`而且通过搜索，我们发现很多pintos都调用了这个函数,包括我们常用的`thread_yield()`,`thread_exit()`.
 
-![](http://neoyanghc-picture.oss-cn-beijing.aliyuncs.com/007bgNxTly1g1t7nv8jvqj30gr0akgmd.jpg%29)
+![](http://jackyanghc-picture.oss-cn-beijing.aliyuncs.com/007bgNxTly1g1t7nv8jvqj30gr0akgmd.jpg%29)
 
 我们发现它的声明就是在`thread.c`中,首先其定义了三个thread结构体的指针，均为局部变量，cur指针指向`running_thread ()`函数的返回值，指针next也是一个函数的返回值。pre之间为null。
 
