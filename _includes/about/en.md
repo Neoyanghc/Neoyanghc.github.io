@@ -16,7 +16,3 @@ Nice to meet you here. 😀😥❤
 - Machine Learning
 - Interpretability of Deep Learning
 - Data Mining
-
-#### Contact 
-- 18801116521
-- 16281052@bjtu.edu.cn
