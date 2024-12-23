@@ -9,8 +9,10 @@ l always listen to JAY 's  music. and l am crazy about traveling
 Nice to meet you here. 😀😥❤
 
 #### Education
-- 2016, B.E. in Computer Science and Technology, Beijing Jiaotong University.
-- 2020, PHD. in Computer Science and Technology, Tongji University.
+- 2023-, Dual PhD candidate. in Department of Computing, The Hong Kong Polytechnic University, Hong Kong S.A.R.
+- 2020-, PhD candidate. in Computer Science and Technology, Tongji University. Shanghai.
+- 2019-2020, Internship. in IT Department of Beijing Bytedance Co., Ltd. Beijing.
+- 2016-2020, B.E. in Computer Science and Technology, Beijing Jiaotong University. Beijing.
 
 #### Research Interests
 - Machine Learning
