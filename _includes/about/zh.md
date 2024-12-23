@@ -1,18 +1,18 @@
 > 随心随意随处漂流 
 
-Hey，我是杨涵晨，同济计科博士生，技能等级比较低，绝招尚在开发中。
-
-现在是一名程序员，有很大很多的梦想与愿望，希望能有人能一起陪我。喜欢听周杰伦和旅行。
+Hey，我是杨涵晨。
 
 #### Education
-- 2016, B.E. in Computer Science and Technology, Beijing Jiaotong University.
-- 2020, PHD. in Computer Science and Technology, Tongji University.
+- 2023-, 双博士研究生，香港理工大学，计算机系，香港特别行政区。
+- 2020-, 博士研究生，同济大学，计算机科学与技术专业。上海。
+- 2019-2020，实习。北京字节跳动科技有限公司，IT部门。北京。
+- 2016-2020，工学学士，北京交通大学，计算机科学与技术专业。北京。
 
 #### Research Interests
-- Machine Learning
-- Interpretability of Deep Learning
-- Data Mining
+- 时空预测
+- 大模型
+- 数据挖掘
 
 #### Contact 
-- 18801116521
-- 16281052@bjtu.edu.cn
+- 18019255548
+- neoyang@tju.edu.cn
